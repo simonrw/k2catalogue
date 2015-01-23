@@ -17,7 +17,7 @@ def test_repr(epic):
     assert repr(epic) == '<EPIC: 12345>'
 
 
-@mock.patch('k2catalogue.models.Simbad')
-def test_simbad_query(Simbad, epic):
-    epic.simbad_query(radius=2.)
-    Simbad.return_value.open.assert_called_once_with(radius=2.)
+def test_simbad_query(epic):
+    with mock.patch('k2catalogue.models.Simbad') as Simbad:
+        epic.simbad_query(radius=2.)
+        Simbad.return_value.open.assert_called_once_with(radius=2.)

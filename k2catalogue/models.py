@@ -2,7 +2,8 @@ from sqlalchemy import *
 from sqlalchemy.orm import sessionmaker, relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
 import logging
-from simbad import Simbad
+
+from .simbad import Simbad
 
 logger = logging.getLogger('models')
 

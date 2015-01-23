@@ -10,7 +10,7 @@ import vcr
 import csv
 import os
 
-from models import (create_database,
+from .models import (create_database,
                     create_session,
                     Proposal,
                     Campaign,

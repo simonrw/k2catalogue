@@ -4,3 +4,5 @@ venv
 *.swp
 *.egg-info
 .tox
+.coverage
+htmlcov

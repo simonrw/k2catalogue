@@ -1,4 +1,12 @@
-from sqlalchemy import *
+from sqlalchemy import (
+    Column,
+    Float,
+    ForeignKey,
+    Integer,
+    String,
+    Table,
+    create_engine,
+)
 from sqlalchemy.orm import sessionmaker, relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
 import logging
@@ -56,14 +64,6 @@ class EPIC(Base):
 
     proposals = relationship('Proposal', secondary=epic_proposals,
                              backref='objects')
-
-    __table_args__ = (
-        # UniqueConstraint('epic_id', 'campaign_id'),
-    )
-
-    def __init__(self, **kwargs):
-        logger.debug('kwargs: %s', kwargs)
-        super(EPIC, self).__init__(**kwargs)
 
     def __repr__(self):
         return '<EPIC: {}>'.format(self.epic_id)

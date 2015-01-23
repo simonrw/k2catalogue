@@ -8,7 +8,6 @@ import requests
 from sqlalchemy import func
 import vcr
 import csv
-import os
 import IPython
 from functools import partial
 
@@ -100,4 +99,5 @@ def main():
         'session': session,
         'get_by_epicid': partial(get_by_epicid, session=session),
         'get_by_proposal': partial(get_by_proposal, session=session),
+        'func': func,
     })

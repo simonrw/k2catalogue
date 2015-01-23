@@ -10,6 +10,7 @@ import vcr
 import csv
 import os
 import IPython
+from functools import partial
 
 from .models import (create_database,
                      create_session,
@@ -80,10 +81,23 @@ def parse_args():
     parser.add_argument('-s', '--setup', action='store_true')
     return parser.parse_args()
 
+# Top level api for the user
+def get_by_epicid(epicid, session):
+    return session.query(EPIC).filter(EPIC.epic_id == epicid).first()
+
+def get_by_proposal(proposal_id, session):
+    return session.query(Proposal).filter(
+        Proposal.proposal_id == proposal_id).first()
 
 def main():
     args = parse_args()
     if args.setup:
         setup()
+
     session = create_session()
-    IPython.embed()
+
+    IPython.start_ipython(user_ns={
+        'session': session,
+        'get_by_epicid': partial(get_by_epicid, session=session),
+        'get_by_proposal': partial(get_by_proposal, session=session),
+    })

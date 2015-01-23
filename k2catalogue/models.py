@@ -2,6 +2,7 @@ from sqlalchemy import *
 from sqlalchemy.orm import sessionmaker, relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
 import logging
+import webbrowser
 
 from .simbad import Simbad
 
@@ -97,6 +98,9 @@ class Campaign(Base):
         base_url = ('http://keplerscience.arc.nasa.gov/K2/'
                     'GuestInvestigationsC{campaign:02d}.shtml')
         return base_url.format(campaign=self.id)
+
+    def open_proposals_page(self):
+        webbrowser.open(self.proposals_page)
 
     def __repr__(self):
         return '<Campaign: {}>'.format(self.id)

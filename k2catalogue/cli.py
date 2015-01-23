@@ -9,12 +9,13 @@ from sqlalchemy import func
 import vcr
 import csv
 import os
+import IPython
 
 from .models import (create_database,
-                    create_session,
-                    Proposal,
-                    Campaign,
-                    EPIC)
+                     create_session,
+                     Proposal,
+                     Campaign,
+                     EPIC)
 
 logging.basicConfig(
     level=logging.INFO, format='%(asctime)s|%(name)s|%(levelname)s|%(message)s')
@@ -74,16 +75,15 @@ def setup():
         session.commit()
 
 
-def main(args):
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-s', '--setup', action='store_true')
+    return parser.parse_args()
+
+
+def main():
+    args = parse_args()
     if args.setup:
         setup()
     session = create_session()
-    import IPython
     IPython.embed()
-    exit()
-
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('-s', '--setup', action='store_true')
-    main(parser.parse_args())

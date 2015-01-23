@@ -1,6 +1,4 @@
 import pytest
-import sys
-sys.path.insert(0, '.')
 import vcr
 from unittest import mock
 
@@ -43,7 +41,7 @@ def test_response(response):
 
 
 def test_open(simbad):
-    with mock.patch('simbad.webbrowser.open') as mock_open:
+    with mock.patch('k2catalogue.simbad.webbrowser.open') as mock_open:
         simbad.open(radius=10)
         url, = mock_open.call_args[0]
         assert 'file://' in url and 'html' in url

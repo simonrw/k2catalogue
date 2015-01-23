@@ -92,6 +92,12 @@ class Campaign(Base):
 
     id = Column(Integer, primary_key=True)
 
+    @property
+    def proposals_page(self):
+        base_url = ('http://keplerscience.arc.nasa.gov/K2/'
+                    'GuestInvestigationsC{campaign:02d}.shtml')
+        return base_url.format(campaign=self.id)
+
     def __repr__(self):
         return '<Campaign: {}>'.format(self.id)
 

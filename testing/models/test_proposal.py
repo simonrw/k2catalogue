@@ -1,4 +1,8 @@
 import pytest
+try:
+    from unittest import mock
+except ImportError:
+    import mock
 
 from k2catalogue import models
 
@@ -13,6 +17,7 @@ def test_proposal_printing(proposal):
 
 
 def test_proposal():
-    proposals = models.Proposal.create(['abc', 'def'])
+    proposals = models.Proposal.create(['abc', 'def'],
+                                       campaign=mock.MagicMock())
     assert (proposals[0].proposal_id == 'abc' and
             proposals[1].proposal_id == 'def')

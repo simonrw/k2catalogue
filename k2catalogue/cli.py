@@ -66,7 +66,7 @@ def setup():
         c = Campaign(id=campaign)
         session.add(c)
         data = fetch_csv(campaign=campaign)
-        proposals = Proposal.create(data[1])
+        proposals = Proposal.create(data[1], c)
         session.add_all(proposals)
         epics = EPIC.create(data[0], c, {
             proposal.proposal_id: proposal for proposal in proposals

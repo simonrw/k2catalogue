@@ -38,16 +38,22 @@ class Proposal(Base):
 
     id = Column(Integer, primary_key=True)
     proposal_id = Column(String, nullable=False, unique=True)
+    campaign_id = Column(Integer, ForeignKey('campaigns.id'))
+    campaign = relationship('Campaign', backref=backref('proposals',
+                                                        order_by=id))
 
     def __repr__(self):
         return '<Proposal: {}>'.format(self.proposal_id)
 
     @classmethod
-    def create(cls, proposals):
+    def create(cls, proposals, campaign):
         out = []
         for proposal in proposals:
-            out.append(cls(proposal_id=proposal))
+            out.append(cls(proposal_id=proposal, campaign=campaign))
         return out
+
+    def open_proposals_page(self):
+        self.campaign.open_proposals_page()
 
 
 class EPIC(Base):

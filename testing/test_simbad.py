@@ -4,8 +4,8 @@ sys.path.insert(0, '.')
 import vcr
 from unittest import mock
 
-from models import EPIC, create_session
-from simbad import Simbad
+from k2catalogue.models import EPIC, create_session
+from k2catalogue.simbad import Simbad
 
 
 @pytest.fixture

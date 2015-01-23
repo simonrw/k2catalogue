@@ -68,7 +68,7 @@ class EPIC(Base):
         return '<EPIC: {}>'.format(self.epic_id)
 
     def simbad_query(self, radius=5.):
-        return Simbad(self).query(radius=radius)
+        return Simbad(self).open(radius=radius)
 
     @classmethod
     def create(cls, epics, campaign, proposal_map):

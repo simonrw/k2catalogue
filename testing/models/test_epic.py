@@ -1,4 +1,8 @@
 import pytest
+try:
+    from unittest import mock
+except ImportError:
+    import mock
 
 from k2catalogue import models
 
@@ -12,3 +16,8 @@ def epic():
 def test_repr(epic):
     assert repr(epic) == '<EPIC: 12345>'
 
+
+@mock.patch('k2catalogue.models.Simbad')
+def test_simbad_query(Simbad, epic):
+    epic.simbad_query(radius=2.)
+    Simbad.return_value.open.assert_called_once_with(radius=2.)

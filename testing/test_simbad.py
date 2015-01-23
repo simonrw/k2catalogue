@@ -16,7 +16,7 @@ def session():
 
 @pytest.fixture
 def epic(session):
-    return session.query(EPIC).filter(EPIC.epic_id == 201763507).first()
+    return mock.Mock(ra=123.456, dec=-56.789)
 
 
 @pytest.fixture
@@ -36,7 +36,7 @@ def response(simbad):
 
 
 def test_form_data(form_data):
-    assert form_data['Coord'] == '169.18 4.72'
+    assert form_data['Coord'] == '123.46 -56.79'
 
 
 def test_response(response):

@@ -68,6 +68,10 @@ class Proposal(Base):
     def open_proposals_page(self):
         self.campaign.open_proposals_page()
 
+    def open_proposal(self):
+        if self.pdf_url:
+            webbrowser.open(self.pdf_url)
+
     @staticmethod
     def valid_proposal(proposal):
         if proposal in INVALID_PROPOSALS:

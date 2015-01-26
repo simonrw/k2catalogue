@@ -1,6 +1,6 @@
 interactions:
 - request:
-    body: CooDefinedFrames=none&Coord=123.46+-56.79&CooFrame=ICRS&Radius=5.0&CooEqui=2000&CooEpoch=2000
+    body: CooEpoch=2000&Coord=123.46+-56.79&CooFrame=ICRS&CooDefinedFrames=none&CooEqui=2000&Radius=5.0
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
@@ -76,7 +76,7 @@ interactions:
         \   </FONT>\n   </TD>\n  </TR>\n </TABLE>\n<P><P> <TABLE WIDTH=\"100%\" CELLPADDING=\"3\">\n
         \ <TR>\n   <TD>\n    <FONT SIZE=\"+1\">\nObject query : coord 123.46 -56.79
         (ICRS, 2000, 2000), radius: 5.0 arcmin    </FONT>\n   </TD>\n   <TD ALIGN=\"RIGHT\"
-        VALIGN=\"TOP\" WIDTH=\"40%\">\nC.D.S.  -  SIMBAD4 rel 1.223  -  2015.01.26CET10:01:08\n
+        VALIGN=\"TOP\" WIDTH=\"40%\">\nC.D.S.  -  SIMBAD4 rel 1.223  -  2015.01.26CET23:11:16\n
         \  </TD>\n  </TR>\n </TABLE>\n<BR><P> <B>\n  <I>\nAvailable data : \n  </I>\n
         </B>\n <A HREF=\"#lab_basic\">\nBasic data </A>\n&nbsp;&bull;&nbsp; <A HREF=\"#lab_ident\">\nIdentifiers
         </A>\n&nbsp;&bull;&nbsp; <A HREF=\"#lab_plot\">\nPlot &amp; images </A>\n&nbsp;&bull;&nbsp;
@@ -394,11 +394,11 @@ interactions:
         .<br>The list of all annotations to SIMBAD objects can be found <A HREF=\"http://cdsannotations.u-strasbg.fr/\">here</A>
         .  </I>\n </FONT>\n<P>Currently no annotations available\n<P><A HREF=\"http://cdsannotations.u-strasbg.fr/annotations/simbadObject/3034290/new\">add
         an annotation to this object</A><P><A HREF=\"http://cdsannotations.u-strasbg.fr/annotations/simbadObject/3034290/new?isErrorNotification=true\">report
-        an error concerning the data of this object</A><HR><P><P><A href=\"http://cdsportal.u-strasbg.fr/StoreSimbadData.html?requestURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%3Foutput.format%3DVOTable%26output.params%3Dmain_id%2Cdist%2Cotype%2Ccoordinates%2Cpropermotions%2Cfluxdata%28B%29%2Cfluxdata%28V%29%2Cfluxdata%28R%29%2Cfluxdata%28J%29%2Cfluxdata%28H%29%2Cfluxdata%28K%29%2Cvelocity%2Csptype%2Cmorphtype%2Cdimensions%2Cbibcodelist%26CooDefinedFrames%3Dnone%26Coord%3D123.46%2B-56.79%26CooFrame%3DICRS%26Radius%3D5.0%26CooEqui%3D2000%26CooEpoch%3D2000&destURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%2526CooDefinedFrames%3Dnone%2526Coord%3D123.46%2B-56.79%2526CooFrame%3DICRS%2526Radius%3D5.0%2526CooEqui%3D2000%2526CooEpoch%3D2000&target=123.46+-56.79&radius=5.0\">Store
+        an error concerning the data of this object</A><HR><P><P><A href=\"http://cdsportal.u-strasbg.fr/StoreSimbadData.html?requestURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%3Foutput.format%3DVOTable%26output.params%3Dmain_id%2Cdist%2Cotype%2Ccoordinates%2Cpropermotions%2Cfluxdata%28B%29%2Cfluxdata%28V%29%2Cfluxdata%28R%29%2Cfluxdata%28J%29%2Cfluxdata%28H%29%2Cfluxdata%28K%29%2Cvelocity%2Csptype%2Cmorphtype%2Cdimensions%2Cbibcodelist%26CooEpoch%3D2000%26Coord%3D123.46%2B-56.79%26CooFrame%3DICRS%26CooDefinedFrames%3Dnone%26CooEqui%3D2000%26Radius%3D5.0&destURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%2526CooEpoch%3D2000%2526Coord%3D123.46%2B-56.79%2526CooFrame%3DICRS%2526CooDefinedFrames%3Dnone%2526CooEqui%3D2000%2526Radius%3D5.0&target=123.46+-56.79&radius=5.0\">Store
         this result in the CDS portal</A><P>To bookmark this query, right click on
-        this link: <A href=\"http://simbad.u-strasbg.fr/simbad/sim-coo?CooDefinedFrames=none&Coord=123.46%20-56.79&CooFrame=ICRS&Radius=5.0&CooEqui=2000&CooEpoch=2000\">simbad:coo=123.46
+        this link: <A href=\"http://simbad.u-strasbg.fr/simbad/sim-coo?CooEpoch=2000&Coord=123.46%20-56.79&CooFrame=ICRS&CooDefinedFrames=none&CooEqui=2000&Radius=5.0\">simbad:coo=123.46
         -56.79,rad=5.0 arcmin</A> and select 'bookmark this link' or equivalent in
-        the popup menu</div>\n<div class=\"cdstail\">\n<hr class=\"simbad\"/>\n<div>\n<div>2015.01.26-10:01:08</div>\n<div>\n<p>&copy;
+        the popup menu</div>\n<div class=\"cdstail\">\n<hr class=\"simbad\"/>\n<div>\n<div>2015.01.26-23:11:16</div>\n<div>\n<p>&copy;
         UDS/CNRS</p>\n<p><a href=\"mailto:cds-question@unistra.fr?Subject=Simbad\"><i
         class=\"icon-envelope\"></i> Contact</a></p>\n</div>\n</div>\n</div><script
         type=\"text/javascript\">var piwikSiteId=\"simbad\";</script>\n<script type=\"text/javascript\"
@@ -408,10 +408,10 @@ interactions:
       Access-Control-Allow-Origin: ['*']
       Connection: [Keep-Alive]
       Content-Type: [text/html]
-      Date: ['Mon, 26 Jan 2015 09:01:08 GMT']
+      Date: ['Mon, 26 Jan 2015 22:11:16 GMT']
       Keep-Alive: ['timeout=15, max=1000']
       Server: [Apache/2.2.22 (Ubuntu) mod_jk/1.2.32]
-      Set-Cookie: [JSESSIONID=A3329BCD422841582B0133DE982B6A4A; Path=/simbad/; HttpOnly]
+      Set-Cookie: [JSESSIONID=9E3E896768DECFA82EDD7B5A8CE68FA0; Path=/simbad/; HttpOnly]
       Transfer-Encoding: [chunked]
     status: {code: 200, message: OK}
 version: 1

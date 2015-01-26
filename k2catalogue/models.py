@@ -43,9 +43,9 @@ class Proposal(Base):
     campaign_id = Column(Integer, ForeignKey('campaigns.id'))
     campaign = relationship('Campaign', backref=backref('proposals',
                                                         order_by=id))
-    pi = Column(String, nullable=False)
-    title = Column(String, nullable=False)
-    pdf_url = Column(String, nullable=False)
+    pi = Column(String)
+    title = Column(String)
+    pdf_url = Column(String)
 
     def __repr__(self):
         return '<Proposal: {}>'.format(self.proposal_id)

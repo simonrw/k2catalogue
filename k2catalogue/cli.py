@@ -16,6 +16,7 @@ from .models import (create_database,
                      Proposal,
                      Campaign,
                      EPIC)
+from .proposal_urls import BuildCampaignMapping
 
 logging.basicConfig(
     level=logging.INFO, format='%(asctime)s|%(name)s|%(levelname)s|%(message)s')
@@ -64,9 +65,10 @@ def setup():
     session = create_session()
     for campaign in 0, 1, 2:
         c = Campaign(id=campaign)
+        proposal_url_builder = BuildCampaignMapping(campaign=campaign)
         session.add(c)
         data = fetch_csv(campaign=campaign)
-        proposals = Proposal.create(data[1], c)
+        proposals = Proposal.create(data[1], c, proposal_url_builder.create())
         session.add_all(proposals)
         epics = EPIC.create(data[0], c, {
             proposal.proposal_id: proposal for proposal in proposals

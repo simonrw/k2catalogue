@@ -37,11 +37,14 @@ class BuildCampaignMapping(object):
     def extract_contents(self, row):
         entries = row.find_all('td')
         if len(entries):
-            proposal_id = entries[0].string.strip()
-            pi = entries[1].string.strip()
-            title = entries[2].string.strip()
-            pdf_url = os.path.join(self.root_url, entries[-1].a['href'])
-            return (proposal_id, pi, title, pdf_url)
+            try:
+                proposal_id = entries[0].string.strip()
+                pi = entries[1].string.strip()
+                title = entries[2].string.strip()
+                pdf_url = os.path.join(self.root_url, entries[-1].a['href'])
+                return (proposal_id, pi, title, pdf_url)
+            except AttributeError:
+                return None
 
     def create(self):
         mapping = {}

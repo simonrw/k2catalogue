@@ -104,8 +104,9 @@ class EPIC(Base):
         for epic in epics:
             proposal_ids = [proposal
                             for proposal in epic['investigation_ids'].split('|')
-                            if proposal not in INVALID_PROPOSALS]
-            proposals = [proposal_map[i] for i in proposal_ids]
+                            if Proposal.valid_proposal(proposal)]
+            proposals = [proposal_map[i] for i in proposal_ids
+                         if i in proposal_map]
 
             self = cls(epic_id=int(epic['epicid']),
                        ra=safe_float(epic['ra']),

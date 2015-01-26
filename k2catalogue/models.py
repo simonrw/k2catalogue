@@ -54,19 +54,27 @@ class Proposal(Base):
     def create(cls, proposals, campaign, proposal_mapping):
         out = []
         for proposal in proposals:
-            if proposal not in INVALID_PROPOSALS:
+            if cls.valid_proposal(proposal):
                 try:
                     map_data = proposal_mapping[proposal.split('_')[0]]
                 except KeyError:
                     logger.warning('No proposal metadata for %s', proposal)
                 else:
                     out.append(cls(proposal_id=proposal, campaign=campaign,
-                                pi=map_data['pi'], title=map_data['title'],
-                                pdf_url=map_data['url']))
+                                   pi=map_data['pi'], title=map_data['title'],
+                                   pdf_url=map_data['url']))
         return out
 
     def open_proposals_page(self):
         self.campaign.open_proposals_page()
+
+    @staticmethod
+    def valid_proposal(proposal):
+        if proposal in INVALID_PROPOSALS:
+            return False
+        if '_TILE' in proposal:
+            return False
+        return True
 
 
 class EPIC(Base):

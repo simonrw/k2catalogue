@@ -25,6 +25,8 @@ epic_proposals = Table(
     Column('proposal_id', Integer, ForeignKey('proposals.id')),
     Column('epic_id', Integer, ForeignKey('epics.id')))
 
+INVALID_PROPOSALS = {'G'}
+
 
 def safe_float(value):
     try:
@@ -52,10 +54,15 @@ class Proposal(Base):
     def create(cls, proposals, campaign, proposal_mapping):
         out = []
         for proposal in proposals:
-            map_data = proposal_mapping[proposal]
-            out.append(cls(proposal_id=proposal, campaign=campaign,
-                           pi=map_data['pi'], title=map_data['title'],
-                           pdf_url=map_data['url']))
+            if proposal not in INVALID_PROPOSALS:
+                try:
+                    map_data = proposal_mapping[proposal.split('_')[0]]
+                except KeyError:
+                    logger.warning('No proposal metadata for %s', proposal)
+                else:
+                    out.append(cls(proposal_id=proposal, campaign=campaign,
+                                pi=map_data['pi'], title=map_data['title'],
+                                pdf_url=map_data['url']))
         return out
 
     def open_proposals_page(self):
@@ -87,7 +94,9 @@ class EPIC(Base):
     def create(cls, epics, campaign, proposal_map):
         out = []
         for epic in epics:
-            proposal_ids = epic['investigation_ids'].split('|')
+            proposal_ids = [proposal
+                            for proposal in epic['investigation_ids'].split('|')
+                            if proposal not in INVALID_PROPOSALS]
             proposals = [proposal_map[i] for i in proposal_ids]
 
             self = cls(epic_id=int(epic['epicid']),

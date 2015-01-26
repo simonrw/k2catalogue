@@ -38,19 +38,23 @@ class BuildCampaignMapping(object):
         entries = row.find_all('td')
         if len(entries):
             proposal_id = entries[0].string.strip()
+            pi = entries[1].string.strip()
+            title = entries[2].string.strip()
             pdf_url = os.path.join(self.root_url, entries[-1].a['href'])
-            return proposal_id, pdf_url
+            return (proposal_id, pi, title, pdf_url)
 
     def create(self):
         mapping = {}
         for row in self.table_rows:
             try:
-                proposal_id, pdf_url = self.extract_contents(row)
+                proposal_id, pi, title, pdf_url = self.extract_contents(row)
             except TypeError:
                 pass
             else:
-                mapping[proposal_id] = pdf_url
-
-        return mapping
+                mapping[proposal_id] = {
+                    'pi': pi,
+                    'title': title,
+                    'url': pdf_url,
+                }
 
         return mapping

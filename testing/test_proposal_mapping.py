@@ -1,4 +1,9 @@
 import pytest
+try:
+    from unittest import mock
+except ImportError:
+    import mock
+
 from k2catalogue import proposal_urls
 
 
@@ -12,9 +17,27 @@ def mapper(campaign):
     return proposal_urls.BuildCampaignMapping(campaign)
 
 
-def test_build_mapping(mapper):
-    mapping = mapper.create()
-    assert isinstance(mapping, dict) and len(mapping)
+@pytest.fixture
+def mock_row():
+    return mock.Mock(find_all=lambda *args: [
+        mock.Mock(string='GO1001'),
+        mock.Mock(string='Giampapa'),
+        mock.Mock(string='Characterizing the Variability of the Nearby '
+                  'Late-Type Dwarf Stars'),
+        mock.Mock(a={'href': 'docs/Campaigns/C1/GO1001_Giampapa.pdf'})])
+
+
+def test_build_mapping(mapper, mock_row):
+    with mock.patch('k2catalogue.proposal_urls.BuildCampaignMapping.table_rows',
+                    new_callable=mock.PropertyMock) as mock_table_rows:
+        mock_table_rows.return_value = [mock_row, ]
+        mapping = mapper.create()
+
+    assert mapping['GO1001'] == {
+        'pi': 'Giampapa',
+        'title': ('Characterizing the Variability of the Nearby '
+                  'Late-Type Dwarf Stars'),
+        'url': 'http://keplerscience.arc.nasa.gov/K2/docs/Campaigns/C1/GO1001_Giampapa.pdf'}
 
 
 def test_build_url(mapper):
@@ -31,3 +54,10 @@ def test_soup(mapper):
 
 def test_find_table(mapper):
     assert mapper.table
+
+
+def test_extract_contents(mapper, mock_row):
+    result = mapper.extract_contents(mock_row)
+    assert result == ('GO1001', 'Giampapa',
+                      'Characterizing the Variability of the Nearby Late-Type Dwarf Stars',
+                      'http://keplerscience.arc.nasa.gov/K2/docs/Campaigns/C1/GO1001_Giampapa.pdf')

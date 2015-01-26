@@ -1,0 +1,547 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.5.1 CPython/3.4.2 Darwin/13.4.0]
+    method: GET
+    uri: http://keplerscience.arc.nasa.gov/K2/GuestInvestigationsC01.shtml
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"
+        \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n\n<html><!--
+        InstanceBegin template=\"/Templates/main2.dwt\" codeOutsideHTMLIsLocked=\"false\"
+        -->\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"
+        />\n\n<!--Meta Data starts-->\n\n<meta name=\"dc.title\" content=\"NASA -
+        Kepler Guest Observer Program\" />\n<meta name=\"dc.format\" content=\"text/html\"
+        />\n<meta name=\"dc.date.modified\" content=\"2009-07-01\" />\n<meta name=\"dc.language\"
+        content=\"en\" />\n<meta name=\"dc.description\" content=\"Resources and Information
+        for Kepler Guest Observers\" />\n<meta name=\"dc.identifier\" content=\"http://keplergo.arc.nasa.gov\"
+        />\n<meta name=\"dc.audience\" content=\"Astronomers, Astrophysicists, Scientists,
+        Researchers\" />\n<meta name=\"dc.subject.discipline\" content=\"Astrophysics,
+        Astronomy\" />\n<meta name=\"orgcode\" content=\"SSA\">\n<meta name=\"rno\"
+        content=\"Martin.Still\">\n<meta name=\"content-owner\" content=\"Martin.Still\">\n<meta
+        name=\"webmaster\" content=\"Martin.Still\">\n\n<!--Meta Data ends-->\n\n<!--
+        InstanceBeginEditable name=\"doctitle\" -->\n<title>Kepler Science Center</title>\n<!--
+        InstanceEndEditable -->\n<!--Standard Include starts-->\n\n<script src=\"common/js/may-common.js\"
+        type=\"text/javascript\" language=\"javascript\">\n</script>\n<script src=\"common/js/index.js\"
+        type=\"text/javascript\" language=\"javascript\">\n</script>\n<link type=\"text/css\"
+        rel=\"stylesheet\" href=\"common/css/may-common.css\" />\n<link rel=\"stylesheet\"
+        type=\"text/css\" href=\"style.css\" />\n<link rel=\"stylesheet\" type=\"text/css\"
+        href=\"style_home.css\" />\n\n<!--Standard Include ends-->\n\n<style type=\"text/css\">\ntable.standard
+        {\n\tborder-width: 0px;\n\tborder-spacing: ;\n\tborder-style: none;\n\tborder-color:
+        gray;\n\tborder-collapse: separate;\n\tbackground-color: white;\n}\ntable.standard
+        th {\n\tborder-width: 0px;\n\tpadding: 3px;\n\tborder-style: none;\n\tborder-color:
+        gray;\n\tbackground-color: white;\n\t-moz-border-radius: ;\n        font-size:
+        10pt;\n        text-align: justify;\n}\ntable.standard td {\n\tborder-width:
+        0px;\n\tpadding: 3px;\n\tborder-style: none;\n\tborder-color: gray;\n\tbackground-color:
+        white;\n\t-moz-border-radius: ;\n        font-size: 10pt;\n        text-align:
+        left;\n        vertical-align: top;\n}\nol{\n  list-style-type: decimal;\n
+        \ margin-left:16px;\n  text-align:justify;\n}\n</style>\n\n<style type=\"text/css\"
+        rel=\"stylesheet\">\n#submit1 {\n       font-size: 200%;\n        padding:
+        20px;\n        font-weight: bold; }\n</style>\n\n<style type=\"text/css\">\n<!--\n.style1
+        {\nfont-size: 18px;\nfont-weight: bold;\n}\n.style3 {\nfont-size: 16px;\npadding-top:
+        0px;\n}\n.style5 {font-size: 16px}\n-->\n</style>\n\n<!-- InstanceBeginEditable
+        name=\"head\" -->\n\n<style type=\"text/css\">\n<!--\n.style6 {font-size:
+        20px}\n.style7 {font-size: 14px}\n.style8 {font-size: 16px}\n.style9 {font-size:
+        18px}\n-->\n</style>\n\n<!-- InstanceEndEditable -->\n\n<script id=\"_fed_an_js_tag\"
+        type=\"text/javascript\" src=\"federated-analytics.all.min.js?agency=NASA&sub-agency=ARC&vcto=12\"></script>\n</head>\n<body>\n\n<noscript><center>\n</center></noscript>\n\n<!--
+        Hidden link to text-only version -->\n\n<table align=\"center\" bgcolor=\"#ffffff\"
+        width=\"745\" border=\"0\" cellspacing=\"0\"\n  cellpadding=\"0\">\n  <tr>\n
+        \   <td colspan=\"5\" height=\"10\" width=\"745\"><img border=\"0\" alt=\"\"
+        height=\"10\"\n      width=\"1\" src=\"images/common/spacer.gif\" />\n    </td>\n
+        \ </tr>\n  <tr>\n    <td rowspan=\"4\" width=\"10\"><img border=\"0\" alt=\"\"
+        height=\"1\" width=\"10\" src=\"images/common/spacer.gif\" />\n    </td>\n
+        \   <td colspan=\"3\" width=\"745\">\n\n<!-- Top Nav Bar starts -->\n\n    <table
+        width=\"770\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n     <tr
+        bgcolor=\"#CCCCCC\">\n       <td>\n\t <a href=\"http://www.nasa.gov/home/index.html\"><img
+        height=\"29\" alt=\"NASA - National Aeronautics and Space Administration\"
+        src=\"images/common/logo_nasa_sm.gif\" width=\"355\" border=\"0\" /></a>\n
+        \      </td>\n       <td align=\"center\" width=\"100\">\n\t <a href=\"#maincontent\"><img
+        border=\"0\" alt=\"Follow this link to skip to the main content\" height=\"1\"
+        width=\"1\" src=\"images/common/spacer.gif\" /></a>\n\t <a class=\"headerLnk\"
+        href=\"http://www.nasa.gov/lb/home/index.html\"></a>\n\t <a class=\"headerLnk\"
+        href=\"http://www.nasa.gov/about/contact/index.html\">+ Contact NASA</a>\n
+        \      </td>\n     </tr>\n\n     <tr>\n       <td colspan=\"2\" width=\"10\"><img
+        border=\"0\" alt=\"\" height=\"1\" width=\"770\"\n           src=\"images/common/spacer.gif\"
+        />\n       </td>\n     </tr>\n\n    <tr bgcolor=\"#1D304E\">\n     <td colspan=\"2\">\n
+        \     <div align=\"center\" id=\"menu\"><ul id=\"menuList\" class=\"adxm\">\n\n\t<li>\n\t<a
+        href=\"index.shtml\">HOME</a>\n\t</li>\n\n    <li class=\"submenu\">\n    <a
+        href=\"MissionConcept.shtml\">MISSION CONCEPT</a>\n    </li>\n\n    <li class=\"submenu\">\n
+        \   <a href=\"Performance.shtml\">PERFORMANCE</a>\n    </li>\n\n\t<li>\n\t<a
+        href=\"Science.shtml\">SCIENCE</a>\n\t<ul class=\"subList\">\n\n\t  <li class=\"submenu\">\n\t
+        \ <a href=\"Science.shtml\">SCIENCE POTENTIAL</a>\n\t  </li>\n\n\t  <li>\n\t
+        \ <a href=\"WhitePapers.shtml\">WHITE PAPERS</a>\n\t  <ul class=\"subList\">\n\n\t
+        \   <li class=\"submenu\">\n\t    <a href=\"docs/WhitePapers/Kepler-2wheels-call-1.pdf\">CALL</a>\n\t
+        \   </li>\n\n\t    <li class=\"submenu\">\n\t    <a href=\"WhitePapers.shtml\">PAPERS</a>\n\t
+        \   </li>\n\n\t    <li class=\"submenu\">\n\t    <a href=\"FAQ.shtml\">FAQ</a>\n\t
+        \   </li>\n\n\t  </ul>\n\t</li>\n      </ul>\n    </li>\n\n    <li class=\"submenu\">\n
+        \   <a href=\"Fields.shtml\">FIELDS</a>\n<!-- \t<ul class=\"subList\">\n\n\t
+        \ <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#0\">CAMPAIGN 0</a>\n\t
+        \ </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#1\">CAMPAIGN
+        1</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#2\">CAMPAIGN
+        2</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#3\">CAMPAIGN
+        3</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#4\">CAMPAIGN
+        4</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#5\">CAMPAIGN
+        5</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#6\">CAMPAIGN
+        6</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#7\">CAMPAIGN
+        7</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Fields.shtml#9\">CAMPAIGN
+        9</a>\n\t  </li>\n\t</ul> -->\n      </li>\n\n   <li class=\"submenu\">\n
+        \   <a href=\"ProposeTargets6-7.shtml\">PROPOSE TARGETS</a>\n\t<ul class=\"subList\">\n\n\t
+        \ <li class=\"submenu\">\n\t  <a href=\"ProposeTargets0-3.shtml#campaign0\">CAMPAIGN
+        0</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"ProposeTargets0-3.shtml#campaign1\">CAMPAIGN
+        1</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"ProposeTargets0-3.shtml#campaigns2-3\">CAMPAIGNS
+        2-3</a>\n\t  </li>\n\n      <li class=\"submenu\">\n\t  <a href=\"ProposeTargets4-5.shtml\">CAMPAIGNS
+        4-5</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"ProposeTargets6-7.shtml\">CAMPAIGNS
+        6-7</a>\n      <ul class=\"subList\">\n\n       <li class=\"submenu\">\n         <a
+        href=\"ProposeTargets6-7.shtml\">STEP-BY-STEP</a>\n       </li>\n\n       <li
+        class=\"submenu\">\n        <a href=\"https://nspires.nasaprs.com/external/solicitations/summary.do?method=init&solId={74BB8A28-7A03-8074-C9F4-BEBC7814D288}&path=open\">SOLICITATION</a>\n
+        \       </li>\n\n       <li class=\"submenu\">\n         <a href=\"Science.shtml\">SCOPE</a>\n
+        \      </li>\n\n       <li class=\"submenu\">\n         <a href=\"ProposalPreparationContent.shtml\">CONTENT</a>\n
+        \      </li>\n\n      <li class=\"submenu\">\n         <a href=\"ProposalPreparationTargetTable.shtml\">TARGET
+        TABLE</a>\n       </li>\n\n      <li class=\"submenu\">\n         <a href=\"ProposalPreparationSubmit.shtml\">SUBMISSION</a>\n
+        \      </li>\n\n       <li class=\"submenu\">\n         <a href=\"ProposalPreparationEvaluation.shtml\">EVALUATION</a>\n
+        \      </li>\n     </ul>\n\t  </li>\n\t</ul>\n    </li>\n\n   <li class=\"submenu\">\n
+        \   <a href=\"GuestInvestigations.shtml\">PROGRAMS</a>\n\t<ul class=\"subList\">\n\n\t
+        \ <li class=\"submenu\">\n\t  <a href=\"GuestInvestigationsC00.shtml\">CAMPAIGN
+        0</a>\n\t  </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"GuestInvestigationsC01.shtml\">CAMPAIGN
+        1</a>\n\t  </li>\n\n      <li class=\"submenu\">\n      <a href=\"GuestInvestigationsC02.shtml\">CAMPAIGN
+        2</a>\n      </li>\n\n      <li class=\"submenu\">\n      <a href=\"GuestInvestigationsC03.shtml\">CAMPAIGN
+        3</a>\n      </li>\n\t</ul>\n    </li>\n\n    <li>\n    <a href=\"FAQ.shtml\">FAQ</a>\n
+        \   </li>\n\n   <li>\n    <a target=\"_top\" <a href=\"http://keplerscience.arc.nasa.gov\"><font
+        color=\"#ffff00\"> KEPLER</font></a>\n    </li>\n\n    </div>\n    </td>\n
+        \ </tr>\n\n  <tr>\n    <td colspan=\"4\" width=\"10\"><img border=\"0\" alt=\"\"
+        height=\"1\" width=\"745\"\n        src=\"images/common/spacer.gif\" />\n
+        \   </td>\n  </tr>\n\n <tr>\n    <td height=\"5\" colspan=\"2\"><img src=\"images/homebanner.jpg\"
+        alt=\"Kepler Science Center\"\n        width=\"770\">\n  </tr>\n\n  <tr>\n
+        \   <td colspan=\"2\" width=\"10\"><img border=\"0\" alt=\"\" height=\"1\"
+        width=\"745\"\n        src=\"images/common/spacer.gif\" />\n  </tr>\n\n\n
+        \ <tr bgcolor=\"#1D304E\">\n    <td colspan=\"2\">\n    <div align=\"center\"
+        id=\"menu\"><ul id=\"menuList\" class=\"adxm\">\n\n      <li>\n      <a href=\"http://archive.stsci.edu/k2/\">ARCHIVE</a>\n
+        \     <ul class=\"subList\">\n\n\t<li class=\"submenu\">\n\t<a href=\"http://archive.stsci.edu/k2/data_search/search.php\">TARGET
+        SEARCH</a>\n\t</li>\n\n\t<li class=\"submenu\">\n\t<a href=\"http://archive.stsci.edu/k2/epic/search.php\">STELLAR
+        CATALOGS</a>\n\t<ul class=\"subList\">\n\t  <li class=\"subList\">\n\t  <a
+        href=\"http://archive.stsci.edu/k2/epic/search.php\">ECLIPTIC PLANE INPUT
+        CATALOG (EPIC)</a>\n\t  </li>\n\t</ul>\n\n\t</li>\n\n     </ul>\n    </li>\n\n
+        \     <li>\n      <a href=\"ToolsK2FOV.shtml\">TOOLS</a>\n      <ul class=\"subList\">\n\n\t<li
+        class=\"submenu\">\n\t<a href=\"ToolsK2FOV.shtml\">TARGET SELECTION</a>\n\t<ul
+        class=\"subList\">\n\t  <li class=\"subList\">\n\t  <a href=\"ToolsK2FOV.shtml\">IS
+        TARGET ON SILICON?</a>\n\t  </li>\n\t</ul>\n      </li>\n    </ul>\n    </li>\n\n
+        \   <li>\n    <a href=\"../Documentation.shtml\">DOCUMENTATION</a>\n    </li>\n\n
+        \  <li class=\"submenu\">\n   <a href=\"../PyKE.shtml\">DATA ANALYSIS</a>\n\t<ul
+        class=\"subList\">\n\n\t  <li class=\"submenu\">\n\t  <a href=\"../PyKE.shtml\">PyKE</a>\n\t
+        \ <ul class=\"subList\">\n\t    <li class=\"submenu\">\n\t    <a href=\"../PyKE.shtml\">DOWNLOAD</a>\n\t
+        \   </li>\n\t    <li class=\"submenu\">\n\t    <a href=\"../PyKE.shtml#tasks\">PyKE
+        TASKS</a>\n\t    </li>\n\t    <li class=\"submenu\">\n\t    <a href=\"../PyKEprimer.shtml\">PRIMER</a>\n\t
+        \   </li>\n\t    <li class=\"submenu\">\n\t    <a href=\"../PyKEprimerWalkthroughs.shtml\">EXAMPLES</a>\n\t
+        \   </li>\n\t  </ul>\n\t</li>\n\n      </ul>\n    </li>\n\n   <li class=\"submenu\">\n
+        \  <a href=\"../News.shtml\">NEWS</a>\n\t<ul class=\"subList\">\n\n\t  <li
+        class=\"submenu\">\n\t  <a href=\"../News.shtml\">K2 NEWS</a>\n\t  </li>\n\n\t
+        \ <li class=\"submenu\">\n\t  <a href=\"../Blog.shtml\">KEPLER BLOG</a>\n\t
+        \ </li>\n\t</ul>\n     </li>\n\n   <li class=\"submenu\">\n   <a href=\"Helpdesk.shtml\">HELPDESK</a>\n\t<ul
+        class=\"subList\">\n\n\t  <li class=\"submenu\">\n\t  <a href=\"Helpdesk.shtml\">EMAIL</a>\n\t
+        \ </li>\n\n\t  <li class=\"submenu\">\n\t  <a href=\"../KUP.shtml\">USERS'
+        PANEL</a>\n\t  </li>\n\t</ul>\n     </li>\n\n    </div>\n    </td>\n  </tr>\n\n</table>\n</td>\n</tr>\n\n
+        <tr>\n   <td valign=\"top\" width=\"770\">\n      <a name=\"maincontent\"></a>\n
+        \     <table width=\"770\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n
+        \   </table>\n\n\n<!-- END OF HEADER -->\n\n\n<!-- TITLE -->\n\n <table width=\"770\"
+        border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n   \n <tr>\n    <td colspan=\"4\"
+        height=\"5\"><img border=\"0\" alt=\"\" height=\"10\" width=\"1\" src=\"images/common/spacer.gif\"></td>\n
+        \ </tr>\n <tr>\n    <td colspan=\"4\" width=\"516\" height=\"20\" valign=\"bottom\"
+        align=\"right\">\n     <span class=\"style6\">K2 GUEST INVESTIGATIONS</span>\n
+        \   </td>\n  </tr>\n  <tr>\n    <td  colspan=\"4\" height=\"5\"><img border=\"0\"
+        alt=\"\" height=\"5\" width=\"1\"\n      src=\"images/common/spacer.gif\"
+        />\n    </td>\n  </tr>\n  <tr>\n    <td colspan=\"4\" bgcolor=\"#cccccc\"
+        height=\"1\"><img border=\"0\" alt=\"\"\n      height=\"1\" width=\"1\" src=\"images/common/spacer.gif\"
+        />\n    </td>\n  </tr>\n  <tr>\n    <td  colspan=\"4\" height=\"10\"><img
+        border=\"0\" alt=\"\" height=\"10\" width=\"1\"\n      src=\"images/common/spacer.gif\"
+        />\n    </td>\n  </tr>\n \n </table>\n\n<!-- TABLE OF PROGRAMS -->\n\n <a
+        name=\"0\"></a>\n <table width=\"770\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n
+        \  \n   <tr>\n    <td colspan=\"3\" valign=\"bottom\" align=\"left\">\n     <span
+        class=\"style6\"><a href=\"Fields.shtml#1\">Campaign 1 (May 30-Aug 21, 2014)</a></span><br>\n
+        \     <span class=\"style5\"><a href=\"docs/Campaigns/C1/K2Campaign1targets.csv\">+target
+        list (csv)</a></span></p>\n    </td>\n  </tr>\n </table>\n   \n<table class=\"standard\"
+        width=\"770\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n   \n  <tr>\n
+        \  <th width=\"20%\">\n     PROPOSAL #\n    </th>\n   <th width=\"12%\">\n
+        \     PI\n    </th>\n   <th width=\"60%\">\n      TITLE\n    </th>\n   <th
+        width=\"8%\">\n    </th>\n  </tr>\n\n       \n                <tr> \n        <td>
+        \n           GO1001 \n        </td> \n        <td> \n           Giampapa \n
+        \       </td> \n        <td> \n           Characterizing the Variability of
+        the Nearby Late-Type Dwarf Stars  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1001_Giampapa.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1002 \n        </td> \n        <td> \n           Beichman \n
+        \       </td> \n        <td> \n           Search for Planets Transiting Bright
+        M Dwarf Stars in Field 1  \n        </td> \n        <td align=\"right\"> \n
+        \         <a href=\"docs/Campaigns/C1/GO1002_Beichman.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1003 \n        </td> \n        <td> \n           Hartig \n
+        \       </td> \n        <td> \n           Long Cadence Super-Red Targets -
+        Kepler K2 Campaign 1\n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1003_Hartig.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1004
+        \n        </td> \n        <td> \n           Alonso \n        </td> \n        <td>
+        \n           A search for transiting exoplanets around cool white dwarfs  \n
+        \       </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1004_Alonso.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1005 \n        </td> \n        <td> \n           Wang \n        </td>
+        \n        <td> \n           Searching For Hot Jupiters In Binary Stars  \n
+        \       </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1005_Wang.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1006 \n        </td> \n        <td> \n           Scholz  \n
+        \       </td> \n        <td> \n           Rotation of M dwarfs: spindown,
+        activity, and gyrochronology\n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1006_Scholz.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1007 \n        </td> \n        <td> \n           Kilic \n        </td>
+        \n        <td> \n           A Search for Habitable Planets Around White Dwarfs
+        in Field 1  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1007_Kilic.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1008
+        \n        </td> \n        <td> \n           Ramsay \n        </td> \n        <td>
+        \n           Flares from M and L dwarfs  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1008_Ramsay.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1009 \n        </td> \n        <td> \n           Ramsay \n
+        \       </td> \n        <td> \n           The Cataclysmic Variable RZ Leo
+        \ \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1009_Ramsay.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1010 \n        </td> \n        <td> \n           Gizis \n        </td>
+        \n        <td> \n           Brown Dwarfs in Kepler K2 Campaign One  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1010_Gizis.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1011 \n        </td> \n        <td> \n           Golden \n
+        \       </td> \n        <td> \n           Determining the Rotational Properties
+        of the T5.5 field dwarf 2MASS J11101001+0116130  \n        </td> \n        <td
+        align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1011_Golden.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1012 \n        </td> \n        <td> \n           Shporer  \n
+        \       </td> \n        <td> \n           K2 Eclipsing White Dwarfs Survey
+        Campaign 1\n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1012_Shporer.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1013 \n        </td> \n        <td> \n           Geier \n        </td>
+        \n        <td> \n           Kepler light curves of hot subdwarf binaries \n
+        \       </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1013_Geier.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1014 \n        </td> \n        <td> \n           Smalley \n
+        \       </td> \n        <td> \n           Pulsations and the Am Stars  \n
+        \       </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1014_Smalley.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1015 \n        </td> \n        <td> \n           Hermes \n
+        \       </td> \n        <td> \n           K2 Observations of the Consequences
+        of Common-Envelope Evolution \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1015_Hermes.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1016 \n        </td> \n        <td> \n           Hermes \n
+        \       </td> \n        <td> \n           Short Cadence Observations of Confirmed
+        Pulsating WDs in K2 Field 1 \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1016_Hermes.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1017 \n        </td> \n        <td> \n           Hermes \n
+        \       </td> \n        <td> \n           Limits on Variability Near the ZZ
+        Ceti Instability Strip \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1017_Hermes.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1018
+        \n        </td> \n        <td> \n           Plachy \n        </td> \n        <td>
+        \n           Long Cadence RR Lyrae targets - K2 Campaign 1  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1018_Plachy.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1019 \n        </td> \n        <td> \n           Molnar \n
+        \       </td> \n        <td> \n           RR Lyrae and red giant stars in
+        the dwarf spheroidal galaxy Leo IV \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1019_Molnar.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1020 \n        </td> \n        <td> \n           Wehrle \n
+        \       </td> \n        <td> \n           Optical Time Variability of Fermi
+        Blazars, Part 2: K2 Field 1\n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1020_Wehrle.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1021 \n        </td> \n        <td> \n           Molnar \n
+        \       </td> \n        <td> \n           Long Cadence Cepheid targets - K2
+        Campaign 1\n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1021_Molnar.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1022 \n        </td> \n        <td> \n           Carini \n
+        \       </td> \n        <td> \n           Observations of known blazars in
+        the K2 F1 field  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1022_Carini.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1023
+        \n        </td> \n        <td> \n           Kane \n        </td> \n        <td>
+        \n           Exoplanet Host Star Targets for K2 Campaign 1  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1023_Kane.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1024 \n        </td> \n        <td> \n           Szkody \n
+        \       </td> \n        <td> \n           K2 Campaign 1 Proposal for Monitoring
+        Cataclysmic Variables  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1024_Szkody.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1025
+        \n        </td> \n        <td> \n           Edelson \n        </td> \n        <td>
+        \n           AGN Variability Studies with K2 Field 1  \n        </td> \n        <td
+        align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1025_Edelson.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1026 \n        </td> \n        <td> \n           Peters \n
+        \       </td> \n        <td> \n           Proposal for Observations of Eclipsing
+        Binaries in Kepler K2 Field 1  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1026_Peters.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1027 \n        </td> \n        <td> \n           Antoci \n
+        \       </td> \n        <td> \n           Unravelling the mysteries of AF-type
+        stars  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1027_Antoci.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n       \n                <tr> \n        <td>
+        \n           GO1029 \n        </td> \n        <td> \n           Antoci \n
+        \       </td> \n        <td> \n           Asteroseismology of SPB stars  \n
+        \       </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1029_Antoci.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1030 \n        </td> \n        <td> \n           Antoci \n
+        \       </td> \n        <td> \n           Asteroseismology of Beta Cephei
+        stars  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1030_Antoci.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1031 \n        </td> \n        <td> \n           Papics \n
+        \       </td> \n        <td> \n           MASSIVE: Massive stAr aSteroSeIsmology,
+        Variability, and Evolution with K2: single B-type stars in Field 1\n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1031_Papics.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1032 \n        </td> \n        <td> \n           Van Grootel
+        \n        </td> \n        <td> \n           K2 Observations of Solar-Like
+        Planet-Hosting Stars in Field 1  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1032_VanGrootel.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1033 \n        </td> \n        <td> \n           Ziegerer  \n
+        \       </td> \n        <td> \n           Nature and Origin of Hypervelocity
+        Stars  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1033_Ziegerer.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1034 \n        </td> \n        <td> \n           Gaulme \n
+        \       </td> \n        <td> \n           Asteroseismology of Stars in Eclipsing-Binary
+        Systems  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1034_Gaulme.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1035 \n        </td> \n        <td> \n           Koerding \n
+        \       </td> \n        <td> \n           Optical variability in Active Galactic
+        Nuclei  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1035_Koerding.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1036 \n        </td> \n        <td> \n           Crossfield
+        \n        </td> \n        <td> \n           Small Planets around Small Stars:
+        Proper Motion and Spectroscopic Selection  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1036_Crossfield.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1037 \n        </td> \n        <td> \n           Rodriguez-Lopez
+        \n        </td> \n        <td> \n           KARMENES Short Cadence: M dwarfs
+        as hosts of close-in planets and pulsations \n        </td> \n        <td
+        align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1037_RodriguezLopez.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1038 \n        </td> \n        <td> \n           Chaplin \n
+        \       </td> \n        <td> \n           Type Stars for Asteroseismology
+        in K2 Short Cadence  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1038_Chaplin.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1039
+        \n        </td> \n        <td> \n           Silvotti \n        </td> \n        <td>
+        \n           A survey to detect first sdB Planetary Transits  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1039_Silvotti.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1040 \n        </td> \n        <td> \n           Silva Aguirre
+        \ \n        </td> \n        <td> \n           Asteroseismology of bright Red
+        Giants  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1040_SilvaAguirre.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1041 \n        </td> \n        <td> \n           Hellier \n
+        \       </td> \n        <td> \n           Kepler K2 observations of the hot
+        Jupiter WASP-85b  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1041_Hellier.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n       \n                <tr> \n        <td> \n           GO1043
+        \n        </td> \n        <td> \n           Johnson \n        </td> \n        <td>
+        \n           Probing the Planetary Population of High-Mass Stars  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1043_Johnson.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1044 \n        </td> \n        <td> \n           Gizis \n        </td>
+        \n        <td> \n           L Dwarf Flares in Kepler K2 Campaign One  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1044_Gizis.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1045 \n        </td> \n        <td> \n           Breedt \n
+        \       </td> \n        <td> \n           Short timescale variations in Cataclysmic
+        Variables  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1045_Breedt.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1046 \n        </td> \n        <td> \n           Weiss \n        </td>
+        \n        <td> \n           Kepler2 Campaign 1 Proposed Targets  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1046_Weiss.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1047 \n        </td> \n        <td> \n           Cook \n        </td>
+        \n        <td> \n           NJC M Dwarfs Companion Search  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1047_Cook.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1048 \n        </td> \n        <td> \n           Burleigh \n
+        \       </td> \n        <td> \n           Eclipses, transits and variability
+        of white dwarf stars with Kepler\n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1048_Burleigh.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1049 \n        </td> \n        <td> \n           Reed \n        </td>
+        \n        <td> \n           K2 Observations of Pulsating Subdwarf B Stars
+        for Field 1  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1049_Reed.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1050
+        \n        </td> \n        <td> \n           Sozzetti \n        </td> \n        <td>
+        \n           A K2 transiting planet search around bright M stars in the era
+        of Gaia  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1050_Sozzetti.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1051 \n        </td> \n        <td> \n           Rojas-Ayala
+        \n        </td> \n        <td> \n           Transiting planets around M dwarfs
+        in field 1: The hunt for small planets! \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1051_Rojas-Ayala.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1052 \n        </td> \n        <td> \n           Robertson
+        \n        </td> \n        <td> \n           Probing M Dwarf Properties, Activity,
+        and Planets with K2\n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1052_Robertson.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1053
+        \n        </td> \n        <td> \n           Montet \n        </td> \n        <td>
+        \n           Targeting M dwarfs with K2  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1053_Montet.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1054 \n        </td> \n        <td> \n           Sanchis-Ojeda
+        \n        </td> \n        <td> \n           Using K2 to understand the rocky-gaseous
+        transition  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1054_Sanchis-Ojeda.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1055
+        \n        </td> \n        <td> \n           Burke \n        </td> \n        <td>
+        \n           K2 Exoplanet Ecliptic Survey - KEES \n        </td> \n        <td
+        align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1055_Burke.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n\n       \n                <tr> \n
+        \       <td> \n           GO1057 \n        </td> \n        <td> \n           Reffert
+        \n        </td> \n        <td> \n           Asteroseismic Characterization
+        of 3 G Giant Stars with Precise Radial Velocity Observations  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1057_Reffert.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1058 \n        </td> \n        <td> \n           Johnson \n
+        \       </td> \n        <td> \n           Searching for Planets around Young
+        Stars: G 10-52  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1058_Johnson.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1059
+        \n        </td> \n        <td> \n           Stello \n        </td> \n        <td>
+        \n           Galactic Archaeology on a grand scale - Campaign 1  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1059_Stello.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1060 \n        </td> \n        <td> \n           Gillen \n
+        \       </td> \n        <td> \n           Members of young associations, moving
+        groups and nearby brown dwarfs\n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1060_Gillen.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1061 \n        </td> \n        <td> \n           Lepine \n
+        \       </td> \n        <td> \n           A KEPLER-K2 search for exoplanets
+        orbiting main-sequence stars of the local Galactic halo population  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1061_Lepine.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1062 \n        </td> \n        <td> \n           Anglada \n
+        \       </td> \n        <td> \n           KARMENES : The K2+CARMENES low cadence
+        M-dwarf sample for field 1  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1062_Anglada.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1063 \n        </td> \n        <td> \n           Sanchez Bejar
+        \n        </td> \n        <td> \n           A search for habitable planets
+        transiting the smallest stars  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1063_SanchezBejar.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1064 \n        </td> \n        <td> \n           Szabo \n        </td>
+        \n        <td> \n           Proof-of-concept study to observe a trans-Neptunian
+        object around the stationary point  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1064_Szabo.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1065 \n        </td> \n        <td> \n           Vanderburg
+        \n        </td> \n        <td> \n           Searching for Eclipsing Post Common
+        Envelope Binary Systems with K2  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1065_Vanderburg.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1066 \n        </td> \n        <td> \n           Lloyd \n        </td>
+        \n        <td> \n           Resolving the Retired A Star Controversy with
+        K2 Asteroseismology \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1066_Lloyd.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1067
+        \n        </td> \n        <td> \n           Kolenberg \n        </td> \n        <td>
+        \n           Short cadence RR Lyrae targets - K2/C1 proposal  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1067_Kolenberg.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1068 \n        </td> \n        <td> \n           Prsa \n        </td>
+        \n        <td> \n           K2 field 1 target proposal: Eclipsing Binary Stars
+        \ \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1068_Prsa.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1069 \n        </td> \n        <td> \n           Deacon \n
+        \       </td> \n        <td> \n           The effect of wide binaries on planet
+        occurrence  \n        </td> \n        <td align=\"right\"> \n          <a
+        href=\"docs/Campaigns/C1/GO1069_Deacon.pdf\">+proposal</a><br> \n       </td>
+        \n       </tr>\n       \n                <tr> \n        <td> \n           GO1070
+        \n        </td> \n        <td> \n           Redfield \n        </td> \n        <td>
+        \n           Monitoring of Targets Within 100 Light Years  \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1070_Redfield.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1071 \n        </td> \n        <td> \n           Redfield \n
+        \       </td> \n        <td> \n           A Search for Transiting Objects
+        Orbiting White Dwarf Stars  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1071_Redfield.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1072 \n        </td> \n        <td> \n           Fanelli \n
+        \       </td> \n        <td> \n           No Title (galaxies) \n        </td>
+        \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1072_Fanelli.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1073 \n        </td> \n        <td> \n           Bastien \n
+        \       </td> \n        <td> \n           Making F Dwarfs Cool Again - Demystifying
+        the Radial Velocity (RV) Jitter of F Dwarfs\n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1073_Bastien.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1074 \n        </td> \n        <td> \n           Olling \n
+        \       </td> \n        <td> \n           The Kepler Extra-Galactic Survey
+        (KEGS)  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1074_Olling.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1075 \n        </td> \n        <td> \n           Demory \n
+        \       </td> \n        <td> \n           Searching for Terrestrial Planets
+        Orbiting the Brightest Cool Stars with K2  \n        </td> \n        <td align=\"right\">
+        \n          <a href=\"docs/Campaigns/C1/GO1075_Demory.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n       \n                <tr> \n        <td>
+        \n           GO1076 \n        </td> \n        <td> \n           Scaringi \n
+        \       </td> \n        <td> \n           Variability in cataclysmic variables
+        with K2  \n        </td> \n        <td align=\"right\"> \n          <a href=\"docs/Campaigns/C1/GO1076_Scaringi.pdf\">+proposal</a><br>
+        \n       </td> \n       </tr>\n\n  \n</table>\n\n\n<!-- START OF FOOTER -->\n\n
+        \    <img src=\"images/common/spacer.gif\" width=\"1\" height=\"1\" alt=\"\"
+        border=\"0\" />\n      <hr size=\"2\" noshade>\n      <i><b>Questions concerning
+        K2's science opportunities and open programs, public archive or community
+        tools? Contact us via the     \n<script type='text/javascript'><!--\nvar v2=\"P4BHV26VW436WBNMTUUFVRCCN4\";var
+        v7=unescape(\"%3BQ2%243@Q9%17YR_%3Bl/%3F7%7B%3B%27%253m%24%21B\");var v5=v2.length;var
+        v1=\"\";for(var v4=0;v4<v5;v4++){v1+=String.fromCharCode(v2.charCodeAt(v4)^v7.charCodeAt(v4));}document.write('<a
+        href=\"javascript:void(0)\" onclick=\"window.location=\\'mail\\u0074o\\u003a'+v1+'?subject=Kepler%20Science%20Center%3A%20'+'\\'\">'+'Kepler
+        Science Center<\\/a>');\n//--></script><noscript><a href='http://w2.syronex.com/jmr/safemailto/#noscript'>Kepler
+        Science Center (with anti-spam)</a></noscript>\n\nemail address.</b></i><br>\n
+        \     <img border=\"0\" alt=\"\" height=\"10\" width=\"1\" src=\"images/common/spacer.gif\"
+        />\n      \n      <table cellpadding=\"0\" cellspacing=\"0\" border=\"0\"
+        bgcolor=\"#cccccc\" width=\"770\">\n\t<tr>\n\t  <td valign=\"top\" width=\"135\">\n\t
+        \   <a href=\"javascript:openNASAWindow('http://www.firstgov.gov')\"><img
+        src=\"images/common/logo_first_gov.gif\" width=\"125\" height=\"42\" alt=\"FirstGov
+        - Your First Click to the US Government\" border=\"0\" /></a>\n\t  </td>\n\t
+        \ <td valign=\"top\" width=\"330\">\n\t    <br /><a href=\"http://www.hq.nasa.gov/office/pao/FOIA/\"
+        class=\"footerLnk\">+ Freedom of Information Act</a>\n\t    <br /><a href=\"http://www.nasa.gov/about/budget/index.html\"
+        class=\"footerLnk\">+ Budgets, Strategic Plans and Accountability Reports</a>\n\t
+        \   <br /><a href=\"http://www.nasa.gov/about/highlights/HP_Management.html\"
+        class=\"footerLnk\">+ The President's Management Agenda</a>\t\t\t\n\t    <br
+        /><a href=\"http://www.nasa.gov/about/highlights/HP_Privacy.html\" class=\"footerLnk\">+
+        NASA Privacy Statement, Disclaimer,\n\t    <br /><img src=\"images/common/spacer.gif\"
+        width=\"9\" height=\"1\" alt=\"\" border=\"0\" />and Accessibility Certification</a>\n\t
+        \   <br /><a href=\"http://www.hq.nasa.gov/office/oig/hq/hotline.html\" class=\"footerLnk\">+
+        Inspector General Hotline</a>\n\t    <br /><a href=\"http://www.hq.nasa.gov/office/codee/nofear.html\"
+        class=\"footerLnk\">+ Equal Employment Opportunity Data Posted Pursuant\n\t
+        \   <br /><img src=\"images/common/spacer.gif\" width=\"9\" height=\"1\" alt=\"\"
+        border=\"0\" />to the No Fear Act</a>\n\t    <br /><a href=\"http://www.nasa.gov/about/contact/information_inventories_schedules.html\"
+        class=\"footerLnk\">+ Information-Dissemination Priorities and Inventories</a>\n\t
+        \   <br />\n\t  </td>\n\t  <td width=\"60\" valign=\"top\">\n\t    <a href=\"http://www.nasa.gov/home/index.html\"><img
+        src=\"images/common/logo_nasa_footer.gif\" width=\"49\" height=\"48\" alt=\"NASA
+        - National Aeronautics and Space Administration\" border=\"0\" /></a>\n\t
+        \ </td>\n\t  <td class=\"light\" width=\"225\" valign=\"top\">\n\t    <br
+        />\n\t    Editor: Martin Still<br />\n\t    NASA Official: Jessie Dotson<br
+        />\n\t    Last Updated: <!-- InstanceBeginEditable name=\"DateOfLastUpdate\"
+        -->May 29, 2014 <!-- InstanceEndEditable --><br />\n\t    <a href=\"http://www.nasa.gov/about/contact/index.html\"
+        class=\"footerLnk\">+ Contact NASA</a>\n\t  </td>\n\t</tr>\n\t<tr>\n\t  <td
+        colspan=\"4\"><img src=\"images/common/spacer.gif\" width=\"1\" height=\"1\"
+        alt=\"\" border=\"0\" />\n\t  </td>\n\t</tr>\n      </table>\n\n    </td>\n
+        \ </tr>\n</table>\n\n</body>\n</html>\n\n"}
+    headers:
+      Accept-Ranges: [bytes]
+      Connection: [close]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Mon, 26 Jan 2015 09:01:08 GMT']
+      Server: [N.O.Y.B]
+      Transfer-Encoding: [chunked]
+    status: {code: 200, message: OK}
+version: 1

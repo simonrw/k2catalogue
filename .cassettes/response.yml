@@ -1,11 +1,11 @@
 interactions:
 - request:
-    body: CooEpoch=2000&CooFrame=ICRS&Radius=5.0&Coord=169.18+4.72&CooDefinedFrames=none&CooEqui=2000
+    body: CooDefinedFrames=none&Coord=123.46+-56.79&CooFrame=ICRS&Radius=5.0&CooEqui=2000&CooEpoch=2000
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
       Connection: [keep-alive]
-      Content-Length: ['91']
+      Content-Length: ['93']
       Content-Type: [application/x-www-form-urlencoded]
       User-Agent: [python-requests/2.5.1 CPython/3.4.2 Darwin/13.4.0]
     method: POST
@@ -31,7 +31,7 @@ interactions:
         src=\"http://simbad.u-strasbg.fr/samp/simbad-samp.js\" type=\"text/javascript\"></script>\n<link
         rel=\"stylesheet\" href=\"http://simbad.u-strasbg.fr/css/simbad.css\"  type=\"text/css\"
         />\n<style type=\"text/css\">\n<!--\nTEXTAREA { background-color: #FFF0DC;
-        }\n-->\n</style>\n<TITLE>coord 169.18 4.72 (ICRS, 2000, 2000), radius: 5.0
+        }\n-->\n</style>\n<TITLE>coord 123.46 -56.79 (ICRS, 2000, 2000), radius: 5.0
         arcmin</TITLE></head>\n<body>\n<div class=\"navbar navbar-top\">\n<div class=\"navbar-inner
         simbad\">\n<div class=\"container-fluid minwidth920\">\n<a class=\"brand\"
         title=\"CDS home\" href=\"http://cds.u-strasbg.fr/\"><img src=\"http://cds.u-strasbg.fr/cds-navbar-resources/img/cds_small.png\"
@@ -52,8 +52,8 @@ interactions:
         us</a></li>\n</ul>\n</li>\n<li class=\"divider\"></li>\n<li><a href=\"http://cdsweb.u-strasbg.fr/help\">Help</a></li>\n</ul>\n<div
         class=\"nav pull-right serviceLogo simbad\">\n</div>\n</div><!--/.nav-collapse
         -->\n</div>\n</div>\n</div>\n<script type=\"text/javascript\">setMenuItem(\"simbad\");</script>\n<div
-        class=\"cdsPageTitle\"><h1>coord 169.18 4.72 (ICRS, 2000, 2000), radius: 5.0
-        arcmin</h1></div><div style=\"margin: 10px\"> <TABLE CELLPADDING=\"6\">\n
+        class=\"cdsPageTitle\"><h1>coord 123.46 -56.79 (ICRS, 2000, 2000), radius:
+        5.0 arcmin</h1></div><div style=\"margin: 10px\"> <TABLE CELLPADDING=\"6\">\n
         \ <TR ALIGN=\"LEFT\" VALIGN=\"TOP\" id=\"menu\">\n   <TD>\n    <B>\n     <I>\nother
         query<br>modes :      </I>\n    </B>\n   </TD>\n   <TD ALIGN=\"CENTER\" BGCOLOR=\"#CCCCFF\"
         id=\"nav-1\">\n    <A HREF=\"sim-fid\">\n     <FONT SIZE=\"+0\" COLOR=\"#000000\">\nIdentifier<br>query
@@ -73,68 +73,332 @@ interactions:
         COLOR=\"#000000\">\nOutput<br>options     </FONT>\n    </A>\n   </TD>\n   <TD
         ALIGN=\"RIGHT\" BGCOLOR=\"#CCFFCC\">\n    <FONT SIZE=\"+0\" COLOR=\"#000000\">\n<A
         HREF=\"http://simbad.u-strasbg.fr/simbad/sim-help?Page=sim-coo\">Help</A>
-        \   </FONT>\n   </TD>\n  </TR>\n </TABLE>\n<P><P><HR><P> <script language=\"JavaScript\"
+        \   </FONT>\n   </TD>\n  </TR>\n </TABLE>\n<P><P> <TABLE WIDTH=\"100%\" CELLPADDING=\"3\">\n
+        \ <TR>\n   <TD>\n    <FONT SIZE=\"+1\">\nObject query : coord 123.46 -56.79
+        (ICRS, 2000, 2000), radius: 5.0 arcmin    </FONT>\n   </TD>\n   <TD ALIGN=\"RIGHT\"
+        VALIGN=\"TOP\" WIDTH=\"40%\">\nC.D.S.  -  SIMBAD4 rel 1.223  -  2015.01.26CET10:01:08\n
+        \  </TD>\n  </TR>\n </TABLE>\n<BR><P> <B>\n  <I>\nAvailable data : \n  </I>\n
+        </B>\n <A HREF=\"#lab_basic\">\nBasic data </A>\n&nbsp;&bull;&nbsp; <A HREF=\"#lab_ident\">\nIdentifiers
+        </A>\n&nbsp;&bull;&nbsp; <A HREF=\"#lab_plot\">\nPlot &amp; images </A>\n&nbsp;&bull;&nbsp;
+        <A HREF=\"#lab_bib\">\nBibliography </A>\n&nbsp;&bull;&nbsp; <A HREF=\"#lab_meas\">\nMeasurements
+        </A>\n&nbsp;&bull;&nbsp; <A HREF=\"#lab_arch\">\nExternal archives </A>\n&nbsp;&bull;&nbsp;
+        <A HREF=\"#lab_notes\">\nNotes </A>\n&nbsp;&bull;&nbsp; <A HREF=\"#lab_annotations\">\nAnnotations
+        </A>\n<HR><P><A NAME=\"lab_basic\"></A>\n <script language=\"JavaScript\"
         type=\"text/javascript\" src=\"http://vizier.u-strasbg.fr/lib/viz2.js\"> </script>\n
-        <script language=\"JavaScript\" type=\"text/javascript\">\n function() {$('.tooltip').tipsy({html:
-        true, title: function() { return this.getAttribute('data-tooltip'); }, gravity:
-        'e' });}\n </script>\n <TABLE WIDTH=\"100%\" CELLPADDING=\"3\">\n  <TR>\n
-        \  <TD>\n    <FONT SIZE=\"+1\">\nObject query : coord 169.18 4.72 (ICRS, 2000,
-        2000), radius: 5.0 arcmin    </FONT>\n   </TD>\n   <TD ALIGN=\"RIGHT\" VALIGN=\"TOP\"
-        WIDTH=\"40%\">\nC.D.S.  -  SIMBAD4 rel 1.223  -  2015.01.23CET15:01:04\n   </TD>\n
-        \ </TR>\n </TABLE>\n<P> <TABLE>\n  <TR>\n   <TD VALIGN=\"MIDDLE\">\nNumber
-        of rows : 3\n   </TD>\n   <TD VALIGN=\"MIDDLE\">\n<button type=\"submit\"
-        onclick=\"openAladinLiteDialog();\"><img src='http://simbad.u-strasbg.fr/icons/AladinIconSS.gif'></img>
-        Interactive preview</button>   </TD>\n  </TR>\n </TABLE>\n<P><script type=\"text/javascript\">$(document).ready(myAladinLiteList(\"P/DSS/color\",\"169.18
-        4.72\",\"0.16666666666666666\"));</script> <DIV ID=\"aladinLiteDialog\" title=\"AladinLite\">\nInteractive
-        <a href=\"http://aladin.u-strasbg.fr/AladinLite\">AladinLite</a> view<div
-        id=\"aladin-lite-div\" style=\"width:220px;height:220px;\"></div>  <DIV ID=\"surveys\"
-        style=\"width:280px\">\n<img id=\"back-icon\" src=\"http://simbad.u-strasbg.fr/aladinlite_back_icon.png\"
-        \ width=20 height=20 onclick=\"gotoAladinLite('P/DSS/color','169.18 4.72',0.16666666666666666);\"
-        alt=\"Back\" title=\"Go back to Simbad object\" ></img>   <INPUT NAME=\"surveysButtons\"
-        ID=\"2MASS\" TYPE=\"radio\" onChange=\"surveyTo2MASS()\" />\n   <LABEL FOR=\"2MASS\">\n2MASS\n
-        \  </LABEL>\n   <INPUT NAME=\"surveysButtons\" ID=\"DSS\" TYPE=\"radio\" onChange=\"surveyToDSS()\"
-        />\n   <LABEL FOR=\"DSS\">\nDSS\n   </LABEL>\n   <INPUT NAME=\"surveysButtons\"
+        <TABLE WIDTH=\"100%\" CELLSPACING=\"2\">\n  <TR>\n   <TD>\n    <FONT SIZE=\"+1\">\n
+        \    <B>\nBasic data : \n     </B>\n    </FONT>\n   </TD>\n  </TR>\n  <TR>\n<P>
+        \  <TD VALIGN=\"TOP\">\n    <TABLE>\n     <TR>\n      <TD NOWRAP colspan=\"2\">\n
+        \      <FONT SIZE=\"+2\">\n        <B>\nCD-56  2159\n        </B>\n -- \nStar\n
+        \      </FONT>\n      </TD>\n     </TR>\n     <TR>\n      <TD ALIGN=\"LEFT\"
+        VALIGN=\"TOP\" NOWRAP>\nDistance to the center <i>arcsec</i>:       </TD>\n
+        \     <TD>\n       <FONT SIZE=\"+0\" COLOR=\"#969696\">\n        <I>\n    181.69\n
+        \       </I>\n       </FONT>\n      </TD>\n     </TR>\n     <TR style=\"min-width:
+        900px;\">\n      <TD ALIGN=\"LEFT\" VALIGN=\"TOP\" NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT
+        SIZE=\\'-1\\'> List of object types known in the Dictionary of nomenclature
+        about this source </FONT> ')\" onmouseout=\"laz()\">\nOther object types:
+        \n       </SPAN>\n      </TD>\n      <TD>\n       <B>\n        <TT>\n*\n        </TT>\n
+        \      </B>\n       <TT>\n(CD,CPD,GSC,HIC,HIP,PPM,RAVE,TYC)\n       </TT>\n,
+        \n       <B>\n        <TT>\nIR\n        </TT>\n       </B>\n       <TT>\n(2MASS)\n
+        \      </TT>\n      </TD>\n     </TR>\n     <TR>\n      <TD NOWRAP>\n       <SPAN
+        onmouseover=\"lay('<FONT SIZE=\\'-1\\'> Syntax of coordinates is : \\'ra dec
+        (wtype) [error ellipse] quality bibcode\\' : <UL> <LI><EM>ra</EM> : right
+        ascension (unit and frame defined according to your Output Options) <LI><EM>dec</EM>
+        : declination (unit and frame defined according to your Output Options) <LI><EM>(wtype)</EM>
+        : wavelength class for the origin of the coordinates (Rad, mm, IR, Optical,
+        UV, Xray, Gam) <LI><EM>[error ellipse]</EM> : coordinates error major axis,
+        minor axis (in mas at epoch defined in your output options),<BR> position
+        angle (in degrees North to East of the specified coordinate frame) <LI><EM>quality</EM>
+        : flag of quality  <UL>  <LI>E &gt;= 10<LI>D : 1-10(and some old data) <LI>C
+        : 0.1-1<LI>B : 0.01-0.1+ 2MASS, Tyc <LI>A : VLBI, Hipparcos  </UL> <LI><EM>bibcode</EM>
+        : bibcode of the coordinates reference </UL>  </FONT> ')\" onmouseout=\"laz()\">\n
+        \       <B>\nICRS\n        </B>\n coord. (ep=J2000) : \n       </SPAN>\n      </TD>\n
+        \     <TD>\n       <B>\n        <TT>\n08 13 54.07917 -56 44 24.8424\n \n(\nOptical\n)
+        \n[\n8.54 8.54 89\n] \nA\n \n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2007A%26A...474..653V\">2007A&A...474..653V</A>
+        \       </TT>\n       </B>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT SIZE=\\'-1\\'> Syntax of coordinates
+        is : \\'ra dec (wtype) [error ellipse] quality bibcode\\' : <UL> <LI><EM>ra</EM>
+        : right ascension (unit and frame defined according to your Output Options)
+        <LI><EM>dec</EM> : declination (unit and frame defined according to your Output
+        Options) <LI><EM>(wtype)</EM> : wavelength class for the origin of the coordinates
+        (Rad, mm, IR, Optical, UV, Xray, Gam) <LI><EM>[error ellipse]</EM> : coordinates
+        error major axis, minor axis (in mas at epoch defined in your output options),<BR>
+        position angle (in degrees North to East of the specified coordinate frame)
+        <LI><EM>quality</EM> : flag of quality  <UL>  <LI>E &gt;= 10<LI>D : 1-10(and
+        some old data) <LI>C : 0.1-1<LI>B : 0.01-0.1+ 2MASS, Tyc <LI>A : VLBI, Hipparcos
+        \ </UL> <LI><EM>bibcode</EM> : bibcode of the coordinates reference </UL>
+        \ </FONT> ')\" onmouseout=\"laz()\">\n        <B>\nFK5\n        </B>\n coord.
+        (ep=J2000 eq=2000) : \n       </SPAN>\n      </TD>\n      <TD>\n       <B>\n
+        \       <TT>\n08 13 54.079 -56 44 24.84\n \n(\nOptical\n) \n[\n8.54 8.54 89\n]
+        \nA\n \n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2007A%26A...474..653V\">2007A&A...474..653V</A>
+        \       </TT>\n       </B>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT SIZE=\\'-1\\'> Syntax of coordinates
+        is : \\'ra dec (wtype) [error ellipse] quality bibcode\\' : <UL> <LI><EM>ra</EM>
+        : right ascension (unit and frame defined according to your Output Options)
+        <LI><EM>dec</EM> : declination (unit and frame defined according to your Output
+        Options) <LI><EM>(wtype)</EM> : wavelength class for the origin of the coordinates
+        (Rad, mm, IR, Optical, UV, Xray, Gam) <LI><EM>[error ellipse]</EM> : coordinates
+        error major axis, minor axis (in mas at epoch defined in your output options),<BR>
+        position angle (in degrees North to East of the specified coordinate frame)
+        <LI><EM>quality</EM> : flag of quality  <UL>  <LI>E &gt;= 10<LI>D : 1-10(and
+        some old data) <LI>C : 0.1-1<LI>B : 0.01-0.1+ 2MASS, Tyc <LI>A : VLBI, Hipparcos
+        \ </UL> <LI><EM>bibcode</EM> : bibcode of the coordinates reference </UL>
+        \ </FONT> ')\" onmouseout=\"laz()\">\n        <B>\nFK4\n        </B>\n coord.
+        (ep=B1950 eq=1950) : \n       </SPAN>\n      </TD>\n      <TD>\n       <B>\n
+        \       <TT>\n08 12 45.62 -56 35 14.1\n \n(\nOptical\n) \n[\n49.25 49.25 89\n]
+        \nA\n \n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2007A%26A...474..653V\">2007A&A...474..653V</A>
+        \       </TT>\n       </B>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT SIZE=\\'-1\\'> Syntax of coordinates
+        is : \\'ra dec (wtype) [error ellipse] quality bibcode\\' : <UL> <LI><EM>ra</EM>
+        : right ascension (unit and frame defined according to your Output Options)
+        <LI><EM>dec</EM> : declination (unit and frame defined according to your Output
+        Options) <LI><EM>(wtype)</EM> : wavelength class for the origin of the coordinates
+        (Rad, mm, IR, Optical, UV, Xray, Gam) <LI><EM>[error ellipse]</EM> : coordinates
+        error major axis, minor axis (in mas at epoch defined in your output options),<BR>
+        position angle (in degrees North to East of the specified coordinate frame)
+        <LI><EM>quality</EM> : flag of quality  <UL>  <LI>E &gt;= 10<LI>D : 1-10(and
+        some old data) <LI>C : 0.1-1<LI>B : 0.01-0.1+ 2MASS, Tyc <LI>A : VLBI, Hipparcos
+        \ </UL> <LI><EM>bibcode</EM> : bibcode of the coordinates reference </UL>
+        \ </FONT> ')\" onmouseout=\"laz()\">\n        <B>\nGal\n        </B>\n coord.
+        (ep=J2000) : \n       </SPAN>\n      </TD>\n      <TD>\n       <B>\n        <TT>\n271.2666
+        -12.0889\n \n(\nOptical\n) \n[\n8.54 8.54 89\n] \nA\n \n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2007A%26A...474..653V\">2007A&A...474..653V</A>
+        \       </TT>\n       </B>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        ALIGN=\"LEFT\" VALIGN=\"TOP\" NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT
+        SIZE=\\'-1\\'> Syntax of proper motions is : \\'pm-ra pm-dec [error ellipse]
+        quality bibcode\\' <UL> <LI><EM>pm-ra</EM> : mu-ra*cos(dec) (expressed in
+        the ICRS system in mas/yr) <LI><EM>pm-dec</EM> : mu-dec (expressed in the
+        ICRS system in mas/yr) <LI><EM>[error ellipse]</EM> : error major axis and
+        minor axis (in mas), orientation angle (in deg) <LI><EM>quality</EM> : flag
+        of quality (A=best quality -&gt; E=worst quality, ~ =unknown quality) <LI><EM>bibcode</EM>
+        : bibcode of the proper motion reference </UL>  </FONT> ')\" onmouseout=\"laz()\">\nProper
+        motions <i>mas/yr</i> [error ellipse]:        </SPAN>\n      </TD>\n      <TD>\n
+        \      <B>\n        <TT>\n-65.55 2.48 [0.97 0.97 0] A <A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2007A%26A...474..653V\">2007A&A...474..653V</A>
+        \       </TT>\n       </B>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        ALIGN=\"LEFT\" VALIGN=\"TOP\" NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT
+        SIZE=\\'-1\\'> Syntax of radial velocity (or/and redshift) is : \\'value [error]
+        quality bibcode\\' <UL> <LI><EM>value</EM> : radial velocity or/and redshift
+        (Heliocentric frame) according to your Output Options  <BR> (redshift may
+        be not displayed if the data value is &lt;0 and the database inside value
+        is a radial velocity) <LI><EM>[error]</EM> : error of the corresponding value
+        displayed before <LI><EM>(wavelength)</EM> : wavelength range of the measurement
+        :  Rad, mm, IR, Opt, UV, Xray, Gam or&#160;&#160;\\'&#8764;\\'(unknown) <LI><EM>quality</EM>
+        : flag of quality ( A=best quality -&gt; E=worst quality, ~ =unknown quality)
+        \ <LI><EM>bibcode</EM> : bibcode of the value\\'s origin  </UL>  </FONT> ')\"
+        onmouseout=\"laz()\">\nRadial velocity / Redshift / cz :        </SPAN>\n
+        \     </TD>\n      <TD>\n       <B>\n        <TT>\nV(km/s) 31.891 [0.766]
+        / \n         <FONT SIZE=\"+0\" COLOR=\"#969696\">\nz(spectroscopic) 0.000106
+        [0.000003]         </FONT>\n / \n         <FONT SIZE=\"+0\" COLOR=\"#969696\">\ncz
+        31.89 [0.77]         </FONT>\n&nbsp;&nbsp;(Opt) C <A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2013AJ....146..134K\">2013AJ....146..134K</A>
+        \       </TT>\n       </B>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        ALIGN=\"LEFT\" VALIGN=\"TOP\" NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT
+        SIZE=\\'-1\\'> Syntax of parallax is : \\'value quality [error] bibcode\\'
+        <UL> <LI><EM>value</EM> : parallax value <LI><EM>quality</EM> : flag of quality
+        (A=best quality -&gt; E=worst quality, ~ =unknown quality) <LI><EM>[error]</EM>
+        : mean error <LI><EM>bibcode</EM> : bibcode of the parallax reference </UL>
+        \  </FONT> ')\" onmouseout=\"laz()\">\nParallaxes <i>mas</i>:        </SPAN>\n
+        \     </TD>\n      <TD>\n       <B>\n        <TT>\n17.37  [1.02] A <A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2007A%26A...474..653V\">2007A&A...474..653V</A>
+        \       </TT>\n       </B>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        ALIGN=\"LEFT\" VALIGN=\"TOP\" NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT
+        SIZE=\\'-1\\'> Spectral type is made of 3 parts:  <UL>  <LI>the <EM>spectral
+        type</EM>, which is made of a   temperature class, eventually a luminosity
+        class (roman number)   and/or spectral peculiarities; <LI>a <EM>quality</EM>
+        letter: A=best quality-&gt;E=worst quality, ~ =unknown quality  <LI><EM>bibcode</EM>
+        : bibcode of the spectral type reference  </UL>  </FONT> ')\" onmouseout=\"laz()\">\nSpectral
+        type:        </SPAN>\n      </TD>\n      <TD>\n       <B>\n        <TT>\nK3V
+        D ~                          </TT>\n       </B>\n      </TD>\n     </TR>\n
+        \    <TR>\n      <TD ALIGN=\"LEFT\" VALIGN=\"TOP\" NOWRAP>\n       <SPAN onmouseover=\"lay('<FONT
+        SIZE=\\'-1\\'> Syntax of fluxes (or magnitudes) is : \\'filter-name  flux-value
+        [error] quality MultVarFlags bibcode\\' <UL> <LI><EM>filter-name</EM> : U,
+        B, V, R, I, J, H, K, u, g, r, i, z  <LI><EM>flux-value</EM> : value of flux
+        or magnitude <LI><EM>[error]</EM> : error value <LI><EM>quality</EM> : flag
+        of quality of the flux value ( A=best quality -&gt; E=worst quality, ~ =unknown
+        quality) <LI><EM>MultVarFlags</EM> : Mult is zero or one char (J) for joined
+        photometry ; Var can be zero or two chars (V[0-4]) <LI><EM>bibcode </EM> :
+        bibcode of the flux reference </UL>  </FONT> ')\" onmouseout=\"laz()\">\nFluxes
+        (5) : \n       </SPAN>\n      </TD>\n      <TD>\n       <TABLE>\n        <TR>\n
+        \        <TD>\n          <B>\n           <TT>\nB      11.05 [0.06]  D \n           </TT>\n
+        \         </B>\n          <B>\n           <TT>\n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2000A%26A...355L..27H\">2000A&A...355L..27H</A>
+        \          </TT>\n          </B>\n         </TD>\n        </TR>\n        <TR>\n
+        \        <TD>\n          <B>\n           <TT>\nV      9.99 [0.03]  D \n           </TT>\n
+        \         </B>\n          <B>\n           <TT>\n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2000A%26A...355L..27H\">2000A&A...355L..27H</A>
+        \          </TT>\n          </B>\n         </TD>\n        </TR>\n        <TR>\n
+        \        <TD>\n          <B>\n           <TT>\nJ      8.384 [0.023]  C \n
+        \          </TT>\n          </B>\n          <B>\n           <TT>\n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2003yCat.2246....0C\">2003yCat.2246....0C</A>
+        \          </TT>\n          </B>\n         </TD>\n        </TR>\n        <TR>\n
+        \        <TD>\n          <B>\n           <TT>\nH      7.959 [0.046]  C \n
+        \          </TT>\n          </B>\n          <B>\n           <TT>\n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2003yCat.2246....0C\">2003yCat.2246....0C</A>
+        \          </TT>\n          </B>\n         </TD>\n        </TR>\n        <TR>\n
+        \        <TD>\n          <B>\n           <TT>\nK      7.842 [0.031]  C \n
+        \          </TT>\n          </B>\n          <B>\n           <TT>\n<A HREF=\"http://cdsbib.u-strasbg.fr/cgi-bin/cdsbib?2003yCat.2246....0C\">2003yCat.2246....0C</A>
+        \          </TT>\n          </B>\n         </TD>\n        </TR>\n       </TABLE>\n
+        \     </TD>\n     </TR>\n    </TABLE>\n   </TD>\n   <TD VALIGN=\"TOP\" WIDTH=\"350\">\n
+        \   <TABLE cellpadding=\"10px\">\n     <TR>\n      <TD>\n       <FORM ACTION=\"sim-coo\"
+        METHOD=\"GET\">\nSIMBAD \n        <INPUT TYPE=\"hidden\" NAME=\"Coord\" ID=\"Coord\"
+        VALUE=\"08 13 54.07917-56 44 24.8424\" />\n        <INPUT TYPE=\"hidden\"
+        NAME=\"CooFrame\" ID=\"CooFrame\" VALUE=\"ICRS\" />\n        <INPUT TYPE=\"hidden\"
+        NAME=\"CooEqui\" ID=\"CooEqui\" VALUE=\"2000.0\" />\n        <INPUT TYPE=\"hidden\"
+        NAME=\"CooEpoch\" ID=\"CooEpoch\" VALUE=\"J2000\" />\n        <INPUT TYPE=\"hidden\"
+        NAME=\"Radius.unit\" ID=\"Radius.unit\" VALUE=\"arcmin\" />\n        <INPUT
+        TYPE=\"submit\" NAME=\"submit\" VALUE=\"query around\" />\n with radius \n
+        \       <INPUT TYPE=\"text\" NAME=\"Radius\" SIZE=\"3\" MAXLENGTH=\"3\" VALUE=\"2\"
+        />\n arcmin\n       </FORM>\n      </TD>\n     </TR>\n     <TR>\n      <TD
+        ALIGN=\"CENTER\" VALIGN=\"TOP\">\n       <DIV class=\"Rounded\">\n<script
+        type=\"text/javascript\">$(document).ready(myAladinLite(\"P/DSS2/color\",\"CD-56
+        \ 2159\",0.033449060936976666));</script>Interactive <a href=\"http://aladin.u-strasbg.fr/AladinLite\">AladinLite</a>
+        view<div id=\"aladin-lite-div\" style=\"width:220px;height:220px;\"></div>
+        \       <DIV ID=\"surveys\" style=\"width:280px\">\n<img id=\"back-icon\"
+        src=\"http://simbad.u-strasbg.fr/aladinlite_back_icon.png\"  width=20 height=20
+        onclick=\"gotoAladinLite('P/DSS2/color','CD-56  2159',0.033449060936976666);\"
+        alt=\"Back\" title=\"Go back to Simbad object\" ></img>         <INPUT NAME=\"surveysButtons\"
+        ID=\"2MASS\" TYPE=\"radio\" onChange=\"surveyTo2MASS()\" />\n         <LABEL
+        FOR=\"2MASS\">\n2MASS\n         </LABEL>\n         <INPUT NAME=\"surveysButtons\"
+        ID=\"DSS\" TYPE=\"radio\" CHECKED=\"checked\" onChange=\"surveyToDSS()\" />\n
+        \        <LABEL FOR=\"DSS\">\nDSS\n         </LABEL>\n         <INPUT NAME=\"surveysButtons\"
         ID=\"others\" TYPE=\"radio\" onChange=\"surveyToOthers()\" />\n<select id=\"surveysList\"
         \ onchange=\"document.getElementById('others').checked='checked';surveyToOthers();\"><option>SDSS</option><option>XMM</option><option>IRAC</option><option>IRIS</option><option>GALEX</option></select>
-        \ </DIV>\n  <noscript>\nnot available (enable JS to use it)\n   <IMG SRC=\"http://alasky.u-strasbg.fr/cgi/simbad-thumbnails/get-thumbnail.py?oid=169.18%204.72&size=0.16666666666666666&legend=P%2fDSS%2fcolor&reticle=true&reticleWidth=1&reticleColor=yellow&scale=true\"
-        ALT=\" \" ID=\" \" ALIGN=\"CENTER\"/>\n  </noscript>\n </DIV>\n <TABLE class=\"sortable\"
-        id=\"datatable\">\n  <THEAD class=\"datatable\">\n   <TR>\n    <TH class=\"sort-int\">\nN\n
-        \   </TH>\n    <TH class=\"sort-alpha\">\nIdentifier\n    </TH>\n    <TH class=\"computed
-        sort-float\">\ndist(asec)    </TH>\n    <TH class=\"sort-alpha\">\n<A HREF=\"http://simbad.u-strasbg.fr/simbad/sim-display?data=otypes\">Otype</A>
-        \   </TH>\n    <TH class=\"lon sort-sexa\">\nICRS (J2000)<br>RA    </TH>\n
-        \   <TH class=\"lat sort-sexa\">\nICRS (J2000)<br>DEC    </TH>\n    <TH class=\"sort-sp\">\nSp
-        type\n    </TH>\n    <TH class=\"sort-int\">\n#ref\n<BR>1850\n-\n2015\n    </TH>\n
-        \   <TH class=\"sort-int\">\n#notes\n    </TH>\n   </TR>\n  </THEAD>\n  <TBODY
-        class=\"datatable\">\n   <TR>\n    <TD>\n1\n    </TD>\n    <TD>\n<A HREF=\"http://simbad.u-strasbg.fr/simbad/sim-id?Ident=%401806005&Name=2MASX%20J11165444%2b0443124&submit=submit\">2MASX
-        J11165444+0443124</A>    </TD>\n    <TD class=\"computed\">\n    168.04\n
-        \   </TD>\n    <TD>\nG\n    </TD>\n    <TD class=\"lon\">\n11 16 54.441     </TD>\n
-        \   <TD class=\"lat\">\n+04 43 12.49    </TD>\n    <TD>\n~\n    </TD>\n    <TD
-        class=\"r\">\n1\n    </TD>\n    <TD class=\"r\">\n0\n    </TD>\n   </TR>\n
-        \  <TR>\n    <TD>\n2\n    </TD>\n    <TD>\n<A HREF=\"http://simbad.u-strasbg.fr/simbad/sim-id?Ident=%401805995&Name=BD%2b05%20%202472&submit=submit\">BD+05
-        \ 2472</A>    </TD>\n    <TD class=\"computed\">\n    183.92\n    </TD>\n
-        \   <TD>\n*\n    </TD>\n    <TD class=\"lon\">\n11 16 44.1726     </TD>\n
-        \   <TD class=\"lat\">\n+04 40 08.660    </TD>\n    <TD>\nK0\n    </TD>\n
-        \   <TD class=\"r\">\n0\n    </TD>\n    <TD class=\"r\">\n0\n    </TD>\n   </TR>\n
-        \  <TR>\n    <TD>\n3\n    </TD>\n    <TD>\n<A HREF=\"http://simbad.u-strasbg.fr/simbad/sim-id?Ident=%406406225&Name=TYC%20%20266-294-1&submit=submit\">TYC
-        \ 266-294-1</A>    </TD>\n    <TD class=\"computed\">\n    280.97\n    </TD>\n
-        \   <TD>\n*\n    </TD>\n    <TD class=\"lon\">\n11 16 25.373     </TD>\n    <TD
-        class=\"lat\">\n+04 44 41.03    </TD>\n    <TD>\n~\n    </TD>\n    <TD class=\"r\">\n0\n
-        \   </TD>\n    <TD class=\"r\">\n0\n    </TD>\n   </TR>\n  </TBODY>\n </TABLE>\n<P><FORM
-        ACTION=\"sim-plot\" METHOD=\"GET\">\n <INPUT TYPE=\"hidden\" NAME=\"coo\"
-        ID=\"coo\" VALUE=\"169.18 4.72\" />\n <INPUT TYPE=\"hidden\" NAME=\"ident\"
-        ID=\"ident\" VALUE=\"2MASX J11165444+0443124\" />\n <INPUT TYPE=\"hidden\"
-        NAME=\"radius\" ID=\"radius\" VALUE=\"5.0\" />\n <INPUT TYPE=\"hidden\" NAME=\"radius.unit\"
-        ID=\"radius.unit\" VALUE=\"arcmin\" />\n <INPUT TYPE=\"submit\" NAME=\"submit\"
-        VALUE=\"plot this list of objects\" />\n&nbsp;&nbsp;&nbsp; <INPUT TYPE=\"radio\"
-        NAME=\"gridframe\" VALUE=\"ICRS\" CHECKED />\nEquat.\n&nbsp;&nbsp; <INPUT
-        TYPE=\"radio\" NAME=\"gridframe\" VALUE=\"Gal\" />\nGal\n&nbsp;&nbsp; <INPUT
-        TYPE=\"radio\" NAME=\"gridframe\" VALUE=\"SGal\" />\nSGal\n&nbsp;&nbsp; <INPUT
-        TYPE=\"radio\" NAME=\"gridframe\" VALUE=\"Ecliptic\" />\nEcl\n</FORM>\n<P><P><A
-        href=\"http://cdsportal.u-strasbg.fr/StoreSimbadData.html?requestURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%3Foutput.format%3DVOTable%26output.params%3Dmain_id%2Cdist%2Cotype%2Ccoordinates%2Cpropermotions%2Cfluxdata%28B%29%2Cfluxdata%28V%29%2Cfluxdata%28R%29%2Cfluxdata%28J%29%2Cfluxdata%28H%29%2Cfluxdata%28K%29%2Cvelocity%2Csptype%2Cmorphtype%2Cdimensions%2Cbibcodelist%26CooEpoch%3D2000%26CooFrame%3DICRS%26Radius%3D5.0%26Coord%3D169.18%2B4.72%26CooDefinedFrames%3Dnone%26CooEqui%3D2000&destURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%2526CooEpoch%3D2000%2526CooFrame%3DICRS%2526Radius%3D5.0%2526Coord%3D169.18%2B4.72%2526CooDefinedFrames%3Dnone%2526CooEqui%3D2000&target=169.18+4.72&radius=5.0\">Store
+        \       </DIV>\n        <noscript>\nnot available (enable JS to use it)\n
+        \        <IMG SRC=\"http://alasky.u-strasbg.fr/cgi/simbad-thumbnails/get-thumbnail.py?oid=CD-56%20%202159&size=0.033449060936976666&legend=P%2fDSS2%2fcolor&reticle=true&reticleWidth=1&reticleColor=yellow&scale=true\"
+        ALT=\" \" ID=\" \" ALIGN=\"CENTER\"/>\n        </noscript>\n       </DIV>\n
+        \     </TD>\n     </TR>\n     <TR>\n      <TD>\n       <script language=\"JavaScript\"
+        type=\"text/javascript\" src=\"http://simbad.u-strasbg.fr/js/sed.js\">       </script>\n
+        \      <FORM ACTION=\"http://vizier.u-strasbg.fr/vizier/sed/\" METHOD=\"GET\"
+        class=\"Rounded\" id=\"FormSED\" target=\"_blank\">\n        <IMG SRC=\"http://simbad.u-strasbg.fr/icons/sed-icon.png\"
+        ALT=\"sedIcon\" ID=\"sedIcon\" ALIGN=\"LEFT\" HEIGHT=\"48\" WIDTH=\"52\"/>\n
+        \       <DIV ALIGN=\"CENTER\">\nVizieR \n         <A HREF=\"http://vizier.u-strasbg.fr/vizier/sed/doc/\">\nphotometry
+        viewer         </A>\n&nbsp;&nbsp;\n         <IMG SRC=\"http://simbad.u-strasbg.fr/icons/help.png\"
+        ALT=\"sed-help-icon\" ID=\"sed-help-icon\" ALIGN=\"CENTER\" class=\"tooltip-icon\"
+        tooltip-text=\"sed-help-text\"/>\n<BR>         <INPUT TYPE=\"submit\" NAME=\"submitSimbad\"
+        VALUE=\"Search\" />\nwithin radius \n         <INPUT TYPE=\"hidden\" NAME=\"-c\"
+        ID=\"-c\" VALUE=\"08 13 54.07917-56 44 24.8424\" />\n         <INPUT TYPE=\"number\"
+        NAME=\"-c.r\" required=\"true\" min=\"1\" max=\"30\" pattern=\"[0-9]{1,2}\\.?[0-9]*\"
+        SIZE=\"5\" ID=\"radiusSED\" MAXLENGTH=\"5\" placeholder=\"Max 30\" />\n arcsec\n
+        \        <INPUT TYPE=\"hidden\" NAME=\"-c.u\" ID=\"-c.u\" VALUE=\"arcsec\"
+        />\n         <INPUT TYPE=\"hidden\" NAME=\"show_settings\" ID=\"show_settings\"
+        VALUE=\"1\" />\n         <SPAN ID=\"sed-help-text\" class=\"tooltip\">\n<FONT
+        SIZE='-1'> The <B>VizieR photometry tool</B> allows for easy visualization
+        of photometry <B>points extracted around the Simbad position</B> from photometry-enabled
+        catalogues in VizieR.  <BR> The search radius has to be specified by the user.
+        It is currently limited to a maximum of 30 arcsec. It depends mostly on the
+        precision or quality of the  coordinates (SIMBAD and VizieR catalogs), the
+        resolution of the images from which the sources were extracted, source extent,
+        and source crowding. <BR> <B>Suggestions are: crowded field: 0.5 to 1.5 arcsec,
+        3 arcsec otherwise</B>; uncertain coordinates (SIMBAD quality E or coordinates
+        without reference): 5 to 30 arsec (risky!).   </FONT>          </SPAN>\n        </DIV>\n
+        \      </FORM>\n      </TD>\n     </TR>\n    </TABLE>\n   </TD>\n  </TR>\n
+        \ <TR/>\n </TABLE>\n<HR><P><A NAME=\"lab_ident\"></A>\n <TABLE>\n  <TR>\n
+        \  <TD>\n    <SPAN onmouseover=\"lay('<FONT SIZE=\\'-1\\'> The link on the
+        acronym of the identifiers give access to the information for this acronym
+        in the dictionary of nomenclature.  </FONT> ')\" onmouseout=\"laz()\">\n     <FONT
+        SIZE=\"+1\">\n      <B>\nIdentifiers (9) : \n      </B>\n     </FONT>\n    </SPAN>\n
+        \  </TD>\n  </TR>\n </TABLE>\n<P> <TABLE WIDTH=\"100%\">\n  <TR>\n   <TD>\n
+        \   <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?CD-56\">CD</A>-56
+        2159\n     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?HIC\">HIC</A>
+        40313\n     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?PPM\">PPM</A>
+        767989\n     </TT>\n    </B>\n   </TD>\n   <TD/>\n  </TR>\n  <TR>\n   <TD>\n
+        \   <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?CPD-56\">CPD</A>-56
+        1557\n     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?HIP\">HIP</A>
+        40313\n     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?RAVE\">RAVE</A>
+        J081354.1-564425\n     </TT>\n    </B>\n   </TD>\n   <TD/>\n  </TR>\n  <TR>\n
+        \  <TD>\n    <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?GSC\">GSC</A>
+        08575-02046\n     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A
+        HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?2MASS\">2MASS</A> J08135407-5644248\n
+        \    </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://cds.u-strasbg.fr/cgi-bin/Dic-Simbad?TYC\">TYC</A>
+        8575-2046-1\n     </TT>\n    </B>\n   </TD>\n   <TD/>\n  </TR>\n </TABLE>\n<HR><P><A
+        NAME=\"lab_plot\"></A>\n<P> <TABLE WIDTH=\"80%\">\n  <TR VALIGN=\"TOP\">\n
+        \  <TD WIDTH=\"12%\">\n    <FONT SIZE=\"+1\">\n     <B>\nPlots and Images\n
+        \    </B>\n    </FONT>\n   </TD>\n   <TD ALIGN=\"CENTER\" VALIGN=\"TOP\" WIDTH=\"7%\">\n
+        \   <FORM ACTION=\"sim-plot\" METHOD=\"GET\">\n     <INPUT TYPE=\"hidden\"
+        NAME=\"target\" ID=\"target\" VALUE=\"_BLANK\" />\n     <INPUT TYPE=\"hidden\"
+        NAME=\"ident\" ID=\"ident\" VALUE=\"CD-56  2159\" />\n     <INPUT TYPE=\"hidden\"
+        NAME=\"coo\" ID=\"coo\" VALUE=\"08 13 54.07917-56 44 24.8424\" />\n     <INPUT
+        TYPE=\"hidden\" NAME=\"radius.unit\" ID=\"radius.unit\" VALUE=\"arcmin\" />\n
+        \    <INPUT TYPE=\"image\" VALUE=\"plot around\" SRC=\"http://simbad.u-strasbg.fr/icons/plot-icon.png\"
+        BORDER=\"0\" ALIGN=\"MIDDLE\" />\n<BR>     <B>\nplot\n     </B>\n<P>radius
+        \n     <INPUT TYPE=\"text\" NAME=\"radius\" SIZE=\"8\" MAXLENGTH=\"8\" VALUE=\"10\"
+        />\n arcmin\n    </FORM>\n   </TD>\n   <TD ALIGN=\"CENTER\" VALIGN=\"TOP\"
+        WIDTH=\"7%\">\n    <A HREF=\"http://cdsportal.u-strasbg.fr/#CD-56%20%202159\"
+        TARGET=\"_blank\">\n     <IMG SRC=\"http://simbad.u-strasbg.fr/icons/portal-icon.png\"
+        BORDER=\"0\" />\n    </A>\n<BR>    <B>\nCDS portal\n    </B>\n   </TD>\n   <TD
+        ALIGN=\"CENTER\" VALIGN=\"TOP\" WIDTH=\"7%\">\n    <A HREF=\"http://cdsweb.u-strasbg.fr/SimPlay/#target=CD-56%20%202159&lp=true&rp=true&bp=true\"
+        TARGET=\"_blank\">\n     <IMG SRC=\"http://simbad.u-strasbg.fr/icons/simplay-icon.png\"
+        BORDER=\"0\" />\n    </A>\n<BR><B>CDS Simplay</B><br><I><FONT size='-1'>(requires
+        flash)</FONT></I>   </TD>\n   <TD ALIGN=\"CENTER\" VALIGN=\"TOP\" WIDTH=\"7%\">\n
+        \   <A HREF=\"http://aladin.u-strasbg.fr/java/nph-aladin.pl?script=get%20Aladin%20CD-56%20%202159%2011arcmin%3bget%20simbad%20CD-56%20%202159%2011arcmin&from=Simbad4\"
+        TARGET=\"_blank\">\n     <IMG SRC=\"http://simbad.u-strasbg.fr/icons/aladin-icon.png\"
+        BORDER=\"0\" />\n    </A>\n<BR>    <B>\nAladin applet\n    </B>\n   </TD>\n
+        \ </TR>\n </TABLE>\n<HR><P><A NAME=\"lab_bib\"></A>\n <TABLE WIDTH=\"100%\">\n
+        \ <TR>\n   <TD VALIGN=\"TOP\">\n    <FONT SIZE=\"+1\">\n     <B>\nReferences
+        (4 between 1850 and 2015)\n     </B>\n    </FONT>\n<BR>    <FONT SIZE=\"-1\">\n
+        \    <I>\nSimbad bibliographic survey began in 1950 for stars (at least bright
+        stars) and in 1983 for all other objects (outside the solar system).\n     </I>\n
+        \   </FONT>\n   </TD>\n   <TD VALIGN=\"TOP\">\n    <FORM ACTION=\"sim-id#lab_bib\"
+        METHOD=\"GET\">\n     <INPUT TYPE=\"submit\" NAME=\"submit\" VALUE=\"display\"
+        />\n     <SELECT NAME=\"bibdisplay\">\n      <OPTION VALUE=\"bibnum\">\nnumber
+        of references      </OPTION>\n      <OPTION VALUE=\"bibcode\">\nonly bibcodes
+        \     </OPTION>\n      <OPTION VALUE=\"refsum\" SELECTED>\nreference summary
+        \     </OPTION>\n      <OPTION VALUE=\"bibnumauthors\">\nnumber of references
+        by 1st author      </OPTION>\n      <OPTION VALUE=\"bibnumyears\">\nnumber
+        of references by year      </OPTION>\n      <OPTION VALUE=\"bibnumjournals\">\nnumber
+        of references by journal      </OPTION>\n     </SELECT>\n<P>from: \n     <INPUT
+        TYPE=\"text\" NAME=\"bibyear1\" SIZE=\"10\" MAXLENGTH=\"12\" VALUE=\"1850\"
+        />\n to: \n     <INPUT TYPE=\"text\" NAME=\"bibyear2\" SIZE=\"10\" MAXLENGTH=\"12\"
+        VALUE=\"$currentYear\" />\n     <INPUT TYPE=\"hidden\" NAME=\"Ident\" ID=\"Ident\"
+        VALUE=\"@3034290\" />\n     <INPUT TYPE=\"hidden\" NAME=\"Name\" ID=\"Name\"
+        VALUE=\"CD-56  2159\" />\n    </FORM>\n   </TD>\n  </TR>\n </TABLE>\n <FORM
+        ACTION=\"sim-id#lab_bib\" METHOD=\"GET\" id=\"formSort\" accept-charset=\"utf-8\">\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        \ <B>\nSort\n  </B>\n reference summaries by : \n (not exhaustive, \n<A HREF=\"http://simbad.u-strasbg.fr/simbad/../Pages/data_bibobjinfo.htx\">explanation
+        here</A>)<P>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        \ <INPUT TYPE=\"submit\" NAME=\"submit\" VALUE=\"Date\" />\n  <INPUT TYPE=\"submit\"
+        NAME=\"submit\" VALUE=\"Title|Abstract|Keyword\" />\n  <INPUT TYPE=\"submit\"
+        NAME=\"submit\" VALUE=\"In table\" />\n  <INPUT TYPE=\"hidden\" NAME=\"Ident\"
+        ID=\"Ident\" VALUE=\"@3034290\" />\n  <INPUT TYPE=\"hidden\" NAME=\"Name\"
+        ID=\"Name\" VALUE=\"CD-56  2159\" />\n  <INPUT TYPE=\"hidden\" NAME=\"bibdisplay\"
+        ID=\"bibdisplay\" VALUE=\"refsum\" />\n  <INPUT TYPE=\"hidden\" NAME=\"bibyear1\"
+        ID=\"bibyear1\" VALUE=\"1850\" />\n  <INPUT TYPE=\"hidden\" NAME=\"bibyear2\"
+        ID=\"bibyear2\" VALUE=\"$currentYear\" />\n </FORM>\n<P> <script language=\"JavaScript\"
+        type=\"text/javascript\">\n$('#formSort input[type=\"submit\"]').attr(\"disabled\",\"disabled\");\n
+        </script>\n<HR><P><P><A NAME=\"lab_meas\"></A>\n <FONT SIZE=\"+1\">\n  <B>\nMeasurements
+        (5 types) : \n  </B>\n </FONT>\n<P> <FORM ACTION=\"sim-id#lab_meas\" METHOD=\"GET\">\n<BR>
+        \ <INPUT TYPE=\"checkbox\" NAME=\"mescat.fe_h\" />\n  <B>\n   <TT>\nFe_H\n
+        \  </TT>\n  </B>\n:\n  <B>\n1\n  </B>\n&nbsp;&nbsp;  <INPUT TYPE=\"checkbox\"
+        NAME=\"mescat.plx\" />\n  <B>\n   <TT>\nPLX\n   </TT>\n  </B>\n:\n  <B>\n2\n
+        \ </B>\n&nbsp;&nbsp;  <INPUT TYPE=\"checkbox\" NAME=\"mescat.pm\" />\n  <B>\n
+        \  <TT>\nPM\n   </TT>\n  </B>\n:\n  <B>\n1\n  </B>\n&nbsp;&nbsp;  <INPUT TYPE=\"checkbox\"
+        NAME=\"mescat.pos\" />\n  <B>\n   <TT>\npos\n   </TT>\n  </B>\n:\n  <B>\n1\n
+        \ </B>\n&nbsp;&nbsp;  <INPUT TYPE=\"checkbox\" NAME=\"mescat.posa\" />\n  <B>\n
+        \  <TT>\nposa\n   </TT>\n  </B>\n:\n  <B>\n1\n  </B>\n&nbsp;&nbsp;<P>  <INPUT
+        TYPE=\"hidden\" NAME=\"Ident\" ID=\"Ident\" VALUE=\"@3034290\" />\n  <INPUT
+        TYPE=\"hidden\" NAME=\"Name\" ID=\"Name\" VALUE=\"CD-56  2159\" />\n  <INPUT
+        TYPE=\"submit\" NAME=\"submit\" VALUE=\"display selected measurements\" />\n&nbsp;
+        \ <INPUT TYPE=\"submit\" NAME=\"submit\" VALUE=\"display all measurements\"
+        />\n&nbsp;  <INPUT TYPE=\"submit\" NAME=\"submit\" VALUE=\"clear\" />\n </FORM>\n<HR><P><P><A
+        NAME=\"lab_arch\"></A>\n<A NAME=\"lab_external\"></A>\n <FONT SIZE=\"+1\">\n
+        \ <B>\nExternal archives : \n  </B>\n </FONT>\n<P>Catalogue information from
+        \n<A HREF=\"http://vizier.u-strasbg.fr/\">VizieR</A> :\n<P><A HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-4?-c=123.47532988-56.74023401&-c.rs=5&-out.add=_r&-sort=_r&-out.max=$4\">Generic
+        search by coordinates (radius: 5 arcsec)</A><P> <TABLE WIDTH=\"100%\">\n  <TR>\n
+        \  <TD>\n    <B>\n     <TT>\n<A HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?CD-56%202159\">CD-56
+        2159</A>     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?CPD-56%201557\">CPD-56
+        1557</A>     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?GSC%2008575-02046\">GSC
+        08575-02046</A>     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A
+        HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?HIC%2040313\">HIC 40313</A>
+        \    </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?HIP%2040313\">HIP
+        40313</A>     </TT>\n    </B>\n   </TD>\n  </TR>\n  <TR>\n   <TD>\n    <B>\n
+        \    <TT>\n<A HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?2MASS%20J08135407-5644248\">2MASS
+        J08135407-5644248</A>     </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A
+        HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?PPM%20767989\">PPM 767989</A>
+        \    </TT>\n    </B>\n   </TD>\n   <TD>\n    <B>\n     <TT>\n<A HREF=\"http://vizier.u-strasbg.fr/viz-bin/VizieR-S?TYC%208575-2046-1\">TYC
+        8575-2046-1</A>     </TT>\n    </B>\n   </TD>\n  </TR>\n </TABLE>\n<HR><P><P><A
+        NAME=\"lab_annotations\"></A>\n <FONT SIZE=\"+1\">\n  <B>\nAnnotations :\n
+        \ </B>\n </FONT>\n<BR> <FONT SIZE=\"+0\">\n  <I>\nAnnotations allow a user
+        to add a note or report an error concerning the astronomical object and its
+        data. It requires registration to post a note. See <A HREF=\"http://cdsannotations.u-strasbg.fr/annotations/doc/\">description</A>
+        .<br>The list of all annotations to SIMBAD objects can be found <A HREF=\"http://cdsannotations.u-strasbg.fr/\">here</A>
+        .  </I>\n </FONT>\n<P>Currently no annotations available\n<P><A HREF=\"http://cdsannotations.u-strasbg.fr/annotations/simbadObject/3034290/new\">add
+        an annotation to this object</A><P><A HREF=\"http://cdsannotations.u-strasbg.fr/annotations/simbadObject/3034290/new?isErrorNotification=true\">report
+        an error concerning the data of this object</A><HR><P><P><A href=\"http://cdsportal.u-strasbg.fr/StoreSimbadData.html?requestURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%3Foutput.format%3DVOTable%26output.params%3Dmain_id%2Cdist%2Cotype%2Ccoordinates%2Cpropermotions%2Cfluxdata%28B%29%2Cfluxdata%28V%29%2Cfluxdata%28R%29%2Cfluxdata%28J%29%2Cfluxdata%28H%29%2Cfluxdata%28K%29%2Cvelocity%2Csptype%2Cmorphtype%2Cdimensions%2Cbibcodelist%26CooDefinedFrames%3Dnone%26Coord%3D123.46%2B-56.79%26CooFrame%3DICRS%26Radius%3D5.0%26CooEqui%3D2000%26CooEpoch%3D2000&destURL=http%3A%2F%2Fsimbad.u-strasbg.fr%2Fsimbad%2Fsim-coo%2526CooDefinedFrames%3Dnone%2526Coord%3D123.46%2B-56.79%2526CooFrame%3DICRS%2526Radius%3D5.0%2526CooEqui%3D2000%2526CooEpoch%3D2000&target=123.46+-56.79&radius=5.0\">Store
         this result in the CDS portal</A><P>To bookmark this query, right click on
-        this link: <A href=\"http://simbad.u-strasbg.fr/simbad/sim-coo?CooEpoch=2000&CooFrame=ICRS&Radius=5.0&Coord=169.18%204.72&CooDefinedFrames=none&CooEqui=2000\">simbad:coo=169.18
-        4.72,rad=5.0 arcmin</A> and select 'bookmark this link' or equivalent in the
-        popup menu</div>\n<div class=\"cdstail\">\n<hr class=\"simbad\"/>\n<div>\n<div>2015.01.23-15:01:04</div>\n<div>\n<p>&copy;
+        this link: <A href=\"http://simbad.u-strasbg.fr/simbad/sim-coo?CooDefinedFrames=none&Coord=123.46%20-56.79&CooFrame=ICRS&Radius=5.0&CooEqui=2000&CooEpoch=2000\">simbad:coo=123.46
+        -56.79,rad=5.0 arcmin</A> and select 'bookmark this link' or equivalent in
+        the popup menu</div>\n<div class=\"cdstail\">\n<hr class=\"simbad\"/>\n<div>\n<div>2015.01.26-10:01:08</div>\n<div>\n<p>&copy;
         UDS/CNRS</p>\n<p><a href=\"mailto:cds-question@unistra.fr?Subject=Simbad\"><i
         class=\"icon-envelope\"></i> Contact</a></p>\n</div>\n</div>\n</div><script
         type=\"text/javascript\">var piwikSiteId=\"simbad\";</script>\n<script type=\"text/javascript\"
@@ -144,10 +408,10 @@ interactions:
       Access-Control-Allow-Origin: ['*']
       Connection: [Keep-Alive]
       Content-Type: [text/html]
-      Date: ['Fri, 23 Jan 2015 14:01:04 GMT']
+      Date: ['Mon, 26 Jan 2015 09:01:08 GMT']
       Keep-Alive: ['timeout=15, max=1000']
       Server: [Apache/2.2.22 (Ubuntu) mod_jk/1.2.32]
-      Set-Cookie: [JSESSIONID=92168D5D0C26DE76824EF992E3FC6177; Path=/simbad/; HttpOnly]
+      Set-Cookie: [JSESSIONID=A3329BCD422841582B0133DE982B6A4A; Path=/simbad/; HttpOnly]
       Transfer-Encoding: [chunked]
     status: {code: 200, message: OK}
 version: 1

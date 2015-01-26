@@ -41,15 +41,21 @@ class Proposal(Base):
     campaign_id = Column(Integer, ForeignKey('campaigns.id'))
     campaign = relationship('Campaign', backref=backref('proposals',
                                                         order_by=id))
+    pi = Column(String, nullable=False)
+    title = Column(String, nullable=False)
+    pdf_url = Column(String, nullable=False)
 
     def __repr__(self):
         return '<Proposal: {}>'.format(self.proposal_id)
 
     @classmethod
-    def create(cls, proposals, campaign):
+    def create(cls, proposals, campaign, proposal_mapping):
         out = []
         for proposal in proposals:
-            out.append(cls(proposal_id=proposal, campaign=campaign))
+            map_data = proposal_mapping[proposal]
+            out.append(cls(proposal_id=proposal, campaign=campaign,
+                           pi=map_data['pi'], title=map_data['title'],
+                           pdf_url=map_data['url']))
         return out
 
     def open_proposals_page(self):

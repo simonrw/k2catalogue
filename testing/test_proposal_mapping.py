@@ -17,14 +17,19 @@ def mapper(campaign):
     return proposal_urls.BuildCampaignMapping(campaign)
 
 
+def create_mock_row(proposal_id, pi, title, url):
+    return mock.Mock(find_all=lambda *args: [
+        mock.Mock(string=proposal_id),
+        mock.Mock(string=pi),
+        mock.Mock(string=title),
+        mock.Mock(a={'href': url})])
+
+
 @pytest.fixture
 def mock_row():
-    return mock.Mock(find_all=lambda *args: [
-        mock.Mock(string='GO1001'),
-        mock.Mock(string='Giampapa'),
-        mock.Mock(string='Characterizing the Variability of the Nearby '
-                  'Late-Type Dwarf Stars'),
-        mock.Mock(a={'href': 'docs/Campaigns/C1/GO1001_Giampapa.pdf'})])
+    return create_mock_row('GO1001', 'Giampapa',
+                           'Characterizing the Variability of the Nearby Late-Type Dwarf Stars',
+                           'docs/Campaigns/C1/GO1001_Giampapa.pdf')
 
 
 def test_build_mapping(mapper, mock_row):

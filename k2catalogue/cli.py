@@ -106,4 +106,9 @@ def main():
         'get_by_epicid': partial(get_by_epicid, session=session),
         'get_by_proposal': partial(get_by_proposal, session=session),
         'func': func,
+        'count': func.count,
+        'Proposal': Proposal,
+        'Campaign': Campaign,
+        'EPIC': EPIC,
+        'get_logger': get_logger,
     }, argv=[])

@@ -19,9 +19,11 @@ from .proposal_urls import BuildCampaignMapping
 from .k2logging import get_logger
 
 logger = get_logger(__name__)
-get_logger('vcr.stubs').setLevel(logging.WARNING)
+
+# Disable third party logging information
+get_logger('vcr.stubs').setLevel('WARNING')
 get_logger('requests.packages.urllib3.connectionpool').setLevel(
-    logging.WARNING)
+    'WARNING')
 
 
 requests_session = requests.Session()

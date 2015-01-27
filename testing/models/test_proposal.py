@@ -44,13 +44,12 @@ def test_open_proposal_without_url(proposal):
         assert not mock_open.called
 
 
-def test_create_with_no_mapping(capsys):
+def test_create_with_no_mapping(caplog):
     proposal_mapping = {}
     campaign = mock.Mock()
     proposal_ids = ['abc', ]
     models.Proposal.create(proposal_ids, campaign, proposal_mapping)
-    out, err = capsys.readouterr()
-    assert err == 'No proposal metadata for abc\n'
+    assert 'No proposal metadata for abc' in caplog.text()
 
 
 @pytest.mark.parametrize('input,expected', [

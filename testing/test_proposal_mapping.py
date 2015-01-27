@@ -67,6 +67,7 @@ def test_extract_contents(mapper, mock_row):
                       'Characterizing the Variability of the Nearby Late-Type Dwarf Stars',
                       'http://keplerscience.arc.nasa.gov/K2/docs/Campaigns/C1/GO1001_Giampapa.pdf')
 
+
 def test_invalid_html(mapper):
     entries = (
         mock.Mock(string='proposal_id'),

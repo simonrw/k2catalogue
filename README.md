@@ -81,3 +81,13 @@ print('WASP-85 b is located here: {ra} {dec} and is magnitude {mag}'.format(
       ra=e.ra, dec=e.dec, mag=e.mag))
 # => WASP-85 b is located here: 175.90838 6.563726 and is magnitude 10.247
 ```
+
+## Advanced usage
+
+The package uses SQLAlchemy for all of the database interactions, and the `session` object along with the database models `Campaign`, `EPIC` and `Proposal` are available to the user for more advanced queries.
+For example the first example above (`get_by_epicid`) can be performed with the SQLAlchemy api:
+
+```python
+epicid = 201862715
+e = session.query(EPIC).filter(EPIC.epic_id == epicid).first()
+```

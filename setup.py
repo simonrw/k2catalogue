@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='k2catalogue',
-    version='0.1.0',
+    version='0.1.1',
     author='Simon Walker',
     install_requires=['requests', 'sqlalchemy', 'ipython', 'vcrpy',
                       'beautifulsoup4'],

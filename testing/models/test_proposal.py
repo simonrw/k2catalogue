@@ -25,6 +25,34 @@ def test_proposal():
             proposals[1].proposal_id == 'def')
 
 
+def test_open_proposals_page(proposal):
+    with mock.patch.object(proposal, 'campaign') as campaign:
+        proposal.open_proposals_page()
+        campaign.open_proposals_page.assert_called_once_with()
+
+
+def test_open_proposal(proposal):
+    with mock.patch('k2catalogue.models.webbrowser.open') as mock_open:
+        proposal.open_proposal()
+        mock_open.assert_called_once_with('pdf_url')
+
+
+def test_open_proposal_without_url(proposal):
+    proposal.pdf_url = None
+    with mock.patch('k2catalogue.models.webbrowser.open') as mock_open:
+        proposal.open_proposal()
+        assert not mock_open.called
+
+
+def test_create_with_no_mapping(capsys):
+    proposal_mapping = {}
+    campaign = mock.Mock()
+    proposal_ids = ['abc', ]
+    models.Proposal.create(proposal_ids, campaign, proposal_mapping)
+    out, err = capsys.readouterr()
+    assert err == 'No proposal metadata for abc\n'
+
+
 @pytest.mark.parametrize('input,expected', [
     ('GO2069_LC', True),
     ('G', False),

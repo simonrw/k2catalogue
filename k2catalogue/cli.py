@@ -3,7 +3,6 @@
 
 from __future__ import division, print_function, absolute_import
 import argparse
-import logging
 import requests
 from sqlalchemy import func
 import vcr
@@ -17,13 +16,12 @@ from .models import (create_database,
                      Campaign,
                      EPIC)
 from .proposal_urls import BuildCampaignMapping
+from .k2logging import get_logger
 
-logging.basicConfig(
-    level=logging.INFO, format='%(asctime)s|%(name)s|%(levelname)s|%(message)s')
-logger = logging.getLogger(__name__)
-logging.getLogger('vcr.stubs').setLevel(logging.WARNING)
-logging.getLogger('requests.packages.urllib3.connectionpool')\
-    .setLevel(logging.WARNING)
+logger = get_logger(__name__)
+get_logger('vcr.stubs').setLevel(logging.WARNING)
+get_logger('requests.packages.urllib3.connectionpool').setLevel(
+    logging.WARNING)
 
 
 requests_session = requests.Session()

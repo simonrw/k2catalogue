@@ -11,10 +11,12 @@ from sqlalchemy.orm import sessionmaker, relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
 import logging
 import webbrowser
+import sys
 
 from .simbad import Simbad
+from .k2logging import get_logger
 
-logger = logging.getLogger('models')
+logger = get_logger(__name__)
 
 engine = create_engine('sqlite:///database.sqlite')
 Base = declarative_base()

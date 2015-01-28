@@ -1,3 +1,4 @@
+from __future__ import with_statement, print_function
 import vcr
 import requests
 from bs4 import BeautifulSoup

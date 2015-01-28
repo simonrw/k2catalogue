@@ -1,3 +1,4 @@
+from __future__ import with_statement, print_function
 import requests
 import webbrowser
 import tempfile

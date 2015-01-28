@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from __future__ import division, print_function, absolute_import
+from __future__ import division, print_function, absolute_import, with_statement
 import argparse
 import requests
 from sqlalchemy import func

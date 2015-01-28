@@ -5,7 +5,7 @@ setup(
     version='0.2.0',
     author='Simon Walker',
     install_requires=['requests', 'sqlalchemy', 'ipython', 'vcrpy',
-                      'beautifulsoup4'],
+                      'beautifulsoup4', 'lxml'],
     tests_require=['pytest'],
     packages=find_packages(exclude=['venv']),
     entry_points={

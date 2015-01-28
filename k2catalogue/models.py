@@ -27,7 +27,7 @@ epic_proposals = Table(
     Column('proposal_id', Integer, ForeignKey('proposals.id')),
     Column('epic_id', Integer, ForeignKey('epics.id')))
 
-INVALID_PROPOSALS = {'G'}
+INVALID_PROPOSALS = set('G')
 
 
 def safe_float(value):
@@ -50,7 +50,7 @@ class Proposal(Base):
     pdf_url = Column(String)
 
     def __repr__(self):
-        return '<Proposal: {}>'.format(self.proposal_id)
+        return '<Proposal: {0}>'.format(self.proposal_id)
 
     @classmethod
     def create(cls, proposals, campaign, proposal_mapping):
@@ -99,7 +99,7 @@ class EPIC(Base):
                              backref='objects')
 
     def __repr__(self):
-        return '<EPIC: {}>'.format(self.epic_id)
+        return '<EPIC: {0}>'.format(self.epic_id)
 
     def simbad_query(self, radius=5.):
         return Simbad(self).open(radius=radius)
@@ -139,7 +139,7 @@ class Campaign(Base):
         webbrowser.open(self.proposals_page)
 
     def __repr__(self):
-        return '<Campaign: {}>'.format(self.id)
+        return '<Campaign: {0}>'.format(self.id)
 
 
 def create_database():

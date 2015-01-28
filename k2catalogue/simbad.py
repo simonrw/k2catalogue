@@ -1,3 +1,4 @@
+from __future__ import with_statement, print_function
 import requests
 import webbrowser
 import tempfile
@@ -15,7 +16,7 @@ class Simbad(object):
 
     def form_data(self, radius):
         return {
-            'Coord': '{:.2f} {:.2f}'.format(self.epic.ra, self.epic.dec),
+            'Coord': '{0:.2f} {1:.2f}'.format(self.epic.ra, self.epic.dec),
             'CooFrame': 'ICRS',
             'CooEpoch': '2000',
             'CooEqui': '2000',
@@ -31,5 +32,5 @@ class Simbad(object):
         with tempfile.NamedTemporaryFile(suffix='.html', delete=False) as tfile:
             tfile.write(response.text.encode('utf-8'))
             tfile.seek(0)
-            url = 'file://{}'.format(os.path.realpath(tfile.name))
+            url = 'file://{0}'.format(os.path.realpath(tfile.name))
             webbrowser.open(url)

@@ -1,3 +1,4 @@
+from __future__ import with_statement, print_function
 import pytest
 try:
     from unittest import mock

@@ -32,5 +32,5 @@ class Simbad(object):
         with tempfile.NamedTemporaryFile(suffix='.html', delete=False) as tfile:
             tfile.write(response.text.encode('utf-8'))
             tfile.seek(0)
-            url = 'file://{}'.format(os.path.realpath(tfile.name))
+            url = 'file://{0}'.format(os.path.realpath(tfile.name))
             webbrowser.open(url)

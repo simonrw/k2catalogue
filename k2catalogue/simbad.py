@@ -16,7 +16,7 @@ class Simbad(object):
 
     def form_data(self, radius):
         return {
-            'Coord': '{:.2f} {:.2f}'.format(self.epic.ra, self.epic.dec),
+            'Coord': '{0:.2f} {1:.2f}'.format(self.epic.ra, self.epic.dec),
             'CooFrame': 'ICRS',
             'CooEpoch': '2000',
             'CooEqui': '2000',

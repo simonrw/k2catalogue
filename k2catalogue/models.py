@@ -27,7 +27,7 @@ epic_proposals = Table(
     Column('proposal_id', Integer, ForeignKey('proposals.id')),
     Column('epic_id', Integer, ForeignKey('epics.id')))
 
-INVALID_PROPOSALS = {'G'}
+INVALID_PROPOSALS = set('G')
 
 
 def safe_float(value):

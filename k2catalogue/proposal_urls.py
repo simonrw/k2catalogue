@@ -14,13 +14,13 @@ class BuildCampaignMapping(object):
     @property
     def url(self):
         return os.path.join(self.root_url,
-                            'GuestInvestigationsC{:02d}.shtml'.format(
+                            'GuestInvestigationsC{0:02d}.shtml'.format(
                                 self.campaign))
 
     @property
     def response(self):
         with vcr.use_cassette(
-                '.cassettes/proposals{:02d}.yml'.format(self.campaign)):
+                '.cassettes/proposals{0:02d}.yml'.format(self.campaign)):
             return requests.get(self.url)
 
     @property

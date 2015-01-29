@@ -7,3 +7,4 @@ venv
 .coverage
 htmlcov
 docs/site
+site

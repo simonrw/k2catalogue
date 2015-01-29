@@ -17,7 +17,7 @@ Simple interactive query api for the K2 proposals list, based on the IPython con
 
 ## Installation
 
-`pip install https://github.com/mindriot101/k2catalogue`
+`pip install git+https://github.com/mindriot101/k2catalogue`
 
 ### Requirements:
 

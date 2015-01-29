@@ -70,9 +70,9 @@ def setup():
         data = fetch_csv(campaign=campaign)
         proposals = Proposal.create(data[1], c, proposal_url_builder.create())
         session.add_all(proposals)
-        epics = EPIC.create(data[0], c, {
-            proposal.proposal_id: proposal for proposal in proposals
-        })
+        epics = EPIC.create(data[0], c, dict([
+            (proposal.proposal_id, proposal) for proposal in proposals
+        ]))
         session.add_all(epics)
         session.commit()
 

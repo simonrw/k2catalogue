@@ -1,2 +1,4 @@
 site_name: k2catalogue
 theme: readthedocs
+repo_url: https://github.com/mindriot101/k2catalogue
+site_author: Simon Walker

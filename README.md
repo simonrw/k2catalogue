@@ -46,11 +46,11 @@ e.simbad_query(radius=5.0)
 
 # Show the proposals containing that object
 print(e.proposals)
-# => [<Proposal: GO1059_LC>, <Proposal: GO1041_SC>, <Proposal: GO1054_LC>, <Proposal: GO1032_SC>, <Proposal: GO1005_LC>]
+# => [<Proposal GO1041_SC: Hellier - "Kepler K2 observatio...">, <Proposal GO1032_SC: Van Grootel - "K2 Observations of S...">, <Proposal GO1054_LC: Sanchis-Ojeda - "Using K2 to understa...">, <Proposal GO1059_LC: Stello - "Galactic Archaeology...">, <Proposal GO1005_LC: Wang - "Searching For Hot Ju...">]
 
 # Let's look at proposal GO1041_SC
-p = e.proposals[1]
-print(p) # => <Proposal: GO1041_SC>
+p = e.proposals[0] # This may have a different index for you
+print(p) # => <Proposal GO1041_SC: Hellier - "Kepler K2 observatio...">
 
 # Where is the proposal pdf?
 print(p.pdf_url) # => http://keplerscience.arc.nasa.gov/K2/docs/Campaigns/C1/GO1041_Hellier.pdf

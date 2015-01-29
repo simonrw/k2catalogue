@@ -49,9 +49,18 @@ class Proposal(Base):
     title = Column(String)
     pdf_url = Column(String)
 
+    max_title_length = 20
+
     def __repr__(self):
-        return '<Proposal: {pi}; "{title}">'.format(
-            pi=self.pi, title=self.title)
+        return '<Proposal {pid}: {pi} - "{title}">'.format(
+            pid=self.proposal_id, pi=self.pi, title=self.short_title)
+
+    @property
+    def short_title(self):
+        if len(self.title) > self.max_title_length:
+            return self.title[:self.max_title_length] + '...'
+        else:
+            return self.title
 
     @classmethod
     def create(cls, proposals, campaign, proposal_mapping):

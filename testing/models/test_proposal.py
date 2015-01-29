@@ -14,8 +14,27 @@ def proposal():
                            pdf_url='pdf_url')
 
 
+@pytest.fixture
+def long_proposal(proposal):
+    proposal.title = 'a' * 100
+    return proposal
+
+
 def test_proposal_printing(proposal):
-    assert repr(proposal) == '<Proposal: pi; "title">'
+    assert repr(proposal) == '<Proposal abc: pi - "title">'
+
+
+def test_proposal_printing_long_title(long_proposal):
+    expected_title = 'a' * 20
+    assert repr(long_proposal) == '<Proposal abc: pi - "{0}...">'.format(
+        expected_title)
+
+
+def test_proposal_printing_change_max_length(long_proposal):
+    expected_title = 'a' * 50
+    models.Proposal.max_title_length = 50
+    assert repr(long_proposal) == '<Proposal abc: pi - "{0}...">'.format(
+        expected_title)
 
 
 def test_proposal():

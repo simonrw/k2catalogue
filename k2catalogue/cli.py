@@ -85,11 +85,11 @@ def parse_args():
 # Top level api for the user
 
 
-def get_by_epicid(epicid, session):
+def _get_by_epicid(epicid, session):
     return session.query(EPIC).filter(EPIC.epic_id == epicid).first()
 
 
-def get_by_proposal(proposal_id, session):
+def _get_by_proposal(proposal_id, session):
     return session.query(Proposal).filter(
         Proposal.proposal_id == proposal_id).first()
 
@@ -101,14 +101,8 @@ def main():
 
     session = create_session()
 
-    IPython.start_ipython(user_ns={
-        'session': session,
-        'get_by_epicid': partial(get_by_epicid, session=session),
-        'get_by_proposal': partial(get_by_proposal, session=session),
-        'func': func,
-        'count': func.count,
-        'Proposal': Proposal,
-        'Campaign': Campaign,
-        'EPIC': EPIC,
-        'get_logger': get_logger,
-    }, argv=[])
+    # Set up the high level api
+    get_by_epicid = partial(_get_by_epicid, session=session)
+    get_by_proposal = partial(_get_by_proposal, session=session)
+    count = func.count
+    IPython.embed(display_banner='', header='K2 Catalogue')

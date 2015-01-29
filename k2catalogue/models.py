@@ -57,10 +57,11 @@ class Proposal(Base):
 
     @property
     def short_title(self):
+        s = self.title[:self.max_title_length]
         if len(self.title) > self.max_title_length:
-            return self.title[:self.max_title_length] + '...'
+            return s + '...'
         else:
-            return self.title
+            return s
 
     @classmethod
     def create(cls, proposals, campaign, proposal_mapping):

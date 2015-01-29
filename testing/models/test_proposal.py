@@ -15,7 +15,7 @@ def proposal():
 
 
 def test_proposal_printing(proposal):
-    assert repr(proposal) == '<Proposal: abc>'
+    assert repr(proposal) == '<Proposal: pi; "title">'
 
 
 def test_proposal():

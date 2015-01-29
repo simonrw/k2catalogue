@@ -50,7 +50,8 @@ class Proposal(Base):
     pdf_url = Column(String)
 
     def __repr__(self):
-        return '<Proposal: {0}>'.format(self.proposal_id)
+        return '<Proposal: {pi}; "{title}">'.format(
+            pi=self.pi, title=self.title)
 
     @classmethod
     def create(cls, proposals, campaign, proposal_mapping):

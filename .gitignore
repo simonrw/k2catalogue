@@ -8,3 +8,5 @@ venv
 htmlcov
 docs/site
 site
+build
+dist

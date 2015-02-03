@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='k2catalogue',
-    version='0.3.1',
+    version='0.4.0',
     author='Simon Walker',
     author_email='s.r.walker101@googlemail.com',
     url='https://github.com/mindriot101/k2catalogue',

@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as infile:
 
 setup(
     name='k2catalogue',
-    version='0.4.0',
+    version='0.5.0',
     author='Simon Walker',
     author_email='s.r.walker101@googlemail.com',
     url='https://github.com/mindriot101/k2catalogue',

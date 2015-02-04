@@ -1,6 +1,5 @@
 # k2catalogue
-[![Build Status](https://travis-ci.org/mindriot101/k2catalogue.svg)](https://travis-ci.org/mindriot101/k2catalogue)[![Code Health](https://landscape.io/github/mindriot101/k2catalogue/master/landscape.svg)](https://landscape.io/github/mindriot101/k2catalogue/master)[![Documentation Status](https://readthedocs.org/projects/k2catalogue/badge/?version=latest)](https://readthedocs.org/projects/k2catalogue/?badge=latest)
-
+[![Build Status](https://travis-ci.org/mindriot101/k2catalogue.svg)](https://travis-ci.org/mindriot101/k2catalogue)[![Code Health](https://landscape.io/github/mindriot101/k2catalogue/master/landscape.svg)](https://landscape.io/github/mindriot101/k2catalogue/master)[![Documentation Status](https://readthedocs.org/projects/k2catalogue/badge/?version=latest)](https://readthedocs.org/projects/k2catalogue/?badge=latest)[![Latest Version](https://pypip.in/version/k2catalogue/badge.svg)](https://pypi.python.org/pypi/k2catalogue/)
 
 Simple interactive query api for the K2 proposals list, based on the IPython console.
 

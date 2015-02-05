@@ -78,4 +78,4 @@ def test_invalid_html(mapper):
     )
     row = mock.Mock(find_all=lambda *args: entries)
     result = mapper.extract_contents(row)
-    assert result == None
+    assert result is None

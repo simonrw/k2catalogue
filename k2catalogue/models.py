@@ -9,9 +9,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.orm import sessionmaker, relationship, backref
 from sqlalchemy.ext.declarative import declarative_base
-import logging
 import webbrowser
-import sys
 
 from .simbad import Simbad
 from .k2logging import get_logger

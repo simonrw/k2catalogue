@@ -14,7 +14,7 @@ from k2catalogue import detail_object
 ])
 def test_detail_url(input, expected):
     epic_object = mock.Mock(epic_id=input)
-    url_root = 'http://deneb.astro.warwick.ac.uk/phrlbj/k2varcat/objects/{}'
+    url_root = 'http://deneb.astro.warwick.ac.uk/phrlbj/k2varcat/objects/{0}'
     assert detail_object.DetailObject(epic_object).url == url_root.format(
         expected)
 

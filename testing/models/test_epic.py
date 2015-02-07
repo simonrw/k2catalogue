@@ -6,6 +6,7 @@ except ImportError:
     import mock
 
 from k2catalogue import models
+from k2catalogue import detail_object
 
 
 @pytest.fixture
@@ -22,3 +23,11 @@ def test_simbad_query(epic):
     with mock.patch('k2catalogue.models.Simbad') as Simbad:
         epic.simbad_query(radius=2.)
         Simbad.return_value.open.assert_called_once_with(radius=2.)
+
+
+def test_detail_object_query(epic):
+    with mock.patch('k2catalogue.detail_object.webbrowser.open') as mock_open:
+        detail_object.DetailObject(epic).open()
+    mock_open.assert_called_once_with(
+        'http://deneb.astro.warwick.ac.uk/phrlbj/k2varcat/objects/12345.html'
+    )

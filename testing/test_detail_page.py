@@ -19,3 +19,8 @@ def test_open_detail_url():
 
     mock_open.assert_called_once_with(
         'http://deneb.astro.warwick.ac.uk/phrlbj/k2varcat/objects/1.html')
+
+
+def test_epicid():
+    epic_object = mock.Mock(epicid=1)
+    assert detail_object.DetailObject(epic_object).epicid == 1

@@ -1,3 +1,4 @@
+import pytest
 try:
     from unittest import mock
 except ImportError:
@@ -6,10 +7,16 @@ except ImportError:
 from k2catalogue import detail_object
 
 
-def test_detail_url():
-    epic_object = mock.Mock(epicid=1)
-    expected = 'http://deneb.astro.warwick.ac.uk/phrlbj/k2varcat/objects/1.html'
-    assert detail_object.DetailObject(epic_object).url == expected
+@pytest.mark.parametrize('input,expected', [
+    (1, '1.html'),
+    (2, '2.html'),
+    (201, '201.html'),
+])
+def test_detail_url(input, expected):
+    epic_object = mock.Mock(epicid=input)
+    url_root = 'http://deneb.astro.warwick.ac.uk/phrlbj/k2varcat/objects/{}'
+    assert detail_object.DetailObject(epic_object).url == url_root.format(
+        expected)
 
 
 def test_open_detail_url():

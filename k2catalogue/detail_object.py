@@ -1,3 +1,6 @@
+import webbrowser
+
+
 class DetailObject(object):
 
     def __init__(self, epicid):
@@ -6,3 +9,6 @@ class DetailObject(object):
     @property
     def url(self):
         return 'http://deneb.astro.warwick.ac.uk/phrlbj/k2varcat/objects/1.html'
+
+    def open(self):
+        webbrowser.open(self.url)
